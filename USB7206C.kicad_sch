@@ -4715,6 +4715,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 137.16) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cb8499-3be3-4e4f-b9e3-3dbc9f98db12")
+	)
+	(wire
+		(pts
 			(xy 175.26 172.72) (xy 191.77 172.72)
 		)
 		(stroke
@@ -5522,6 +5532,16 @@
 			(type default)
 		)
 		(uuid "7b3756eb-9333-4d68-9ad2-801c381099f3")
+	)
+	(wire
+		(pts
+			(xy 31.75 134.62) (xy 53.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca65a93-3a89-4678-8281-824f0012a1b5")
 	)
 	(wire
 		(pts
@@ -7307,6 +7327,17 @@
 		)
 		(uuid "544bad9b-09e6-4d56-9447-857efd04a6da")
 	)
+	(hierarchical_label "PRT_CTL4"
+		(shape output)
+		(at 31.75 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d21b578-5f7b-4c85-bb52-d81b50bc9761")
+	)
 	(hierarchical_label "USB_UP"
 		(shape input)
 		(at 217.17 154.94 0)
@@ -7350,6 +7381,17 @@
 			(justify right)
 		)
 		(uuid "a33d18b2-3794-48af-86da-5242c310062a")
+	)
+	(hierarchical_label "PRT_CTL3"
+		(shape output)
+		(at 31.75 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dce6c1cb-8dac-4c2e-9f32-ac2c7e394ee2")
 	)
 	(symbol
 		(lib_id "2025-07-15_10-11-24:USB7206C_KDX")

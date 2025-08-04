@@ -35,6 +35,16 @@
 		)
 		(uuid "06a30ec9-eb34-491a-bd9e-7b810e671bf7")
 	)
+	(wire
+		(pts
+			(xy 270.51 74.93) (xy 284.48 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfba9c5-0d52-4a3b-873b-e2cc083b0c6c")
+	)
 	(bus
 		(pts
 			(xy 270.51 69.85) (xy 284.48 69.85)
@@ -64,6 +74,16 @@
 			(type default)
 		)
 		(uuid "18b065f4-5586-4d9d-b8da-18d74fa02b9a")
+	)
+	(wire
+		(pts
+			(xy 270.51 67.31) (xy 284.48 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "265acb09-3c0a-4733-9ba3-46f9b6a2cf6d")
 	)
 	(bus
 		(pts
@@ -433,6 +453,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PRT_CTL4" output
+			(at 270.51 74.93 0)
+			(uuid "40336d27-5911-4a08-bfc6-c2e1c1a2c29b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PRT_CTL3" output
+			(at 270.51 67.31 0)
+			(uuid "0bcf6501-8c57-4dfe-aa9a-8483502009c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
