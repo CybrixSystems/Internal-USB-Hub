@@ -21334,7 +21334,7 @@
 		(uuid "561f9b2c-c3fe-4b0b-9f06-24aa9e73c636")
 	)
 	(hierarchical_label "USB-C2"
-		(shape bidirectional)
+		(shape input)
 		(at 334.01 34.29 180)
 		(effects
 			(font

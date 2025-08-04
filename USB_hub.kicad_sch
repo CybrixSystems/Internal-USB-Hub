@@ -45,6 +45,16 @@
 		)
 		(uuid "0e35425e-384b-4931-b659-2d6f885efaf8")
 	)
+	(wire
+		(pts
+			(xy 248.92 92.71) (xy 248.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4f8c3a-8162-4d7d-9fea-20505e88270b")
+	)
 	(bus
 		(pts
 			(xy 270.51 29.21) (xy 284.48 29.21)
@@ -64,6 +74,16 @@
 			(type default)
 		)
 		(uuid "6815180e-148d-4639-b06d-83c0e7d0f73f")
+	)
+	(bus
+		(pts
+			(xy 245.11 92.71) (xy 245.11 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75440407-1f06-419a-ad34-96e074f5bd78")
 	)
 	(bus
 		(pts
@@ -221,9 +241,9 @@
 				(justify left top)
 			)
 		)
-		(pin "USB-C2{USB3}" input
+		(pin "USB-C2" input
 			(at 284.48 52.07 180)
-			(uuid "fcde898d-eb49-4521-a199-75f6874d8925")
+			(uuid "5809911c-5e6b-40cb-adb0-8c32f322f981")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,6 +291,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBUS_DET" output
+			(at 248.92 96.52 90)
+			(uuid "6ff13e9f-c1ff-4a4d-baca-6d6ca10ad4f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-C_UP" output
+			(at 245.11 96.52 90)
+			(uuid "1046e52f-e17f-42cd-b498-3ae37635e534")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -325,16 +365,6 @@
 				(justify right)
 			)
 		)
-		(pin "USB_UP" bidirectional
-			(at 241.3 92.71 270)
-			(uuid "92c1b8d0-3020-43f6-9664-96b0d10ae9cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_DN3" output
 			(at 270.51 69.85 0)
 			(uuid "14bdc455-d4ef-4dfd-aac2-423c37a57d20")
@@ -375,14 +405,34 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DN2{USB3}" output
+		(pin "USB_UP" input
+			(at 245.11 92.71 270)
+			(uuid "2c60463f-fa1d-4bbf-9ef4-6af9e4e236b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN2" output
 			(at 270.51 52.07 0)
-			(uuid "b9219406-3dd3-427a-9641-9aa034e991c7")
+			(uuid "14990d3f-a950-458f-b982-296e9b987316")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VBUS_DET" input
+			(at 248.92 92.71 270)
+			(uuid "b491d9fa-096c-4d75-9211-a32af33ccc61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
