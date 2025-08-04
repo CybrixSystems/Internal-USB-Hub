@@ -1,0 +1,548 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a2586c28-95f1-49e6-9254-37d7a8473e53")
+	(paper "A3")
+	(lib_symbols)
+	(text "these connections may change for better routing "
+		(exclude_from_sim no)
+		(at 278.13 14.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "167224f7-8088-4ff7-902f-f95db9bd5182")
+	)
+	(bus
+		(pts
+			(xy 270.51 52.07) (xy 284.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bd7d22-6952-4cd8-b248-4f65b9eab19a")
+	)
+	(bus
+		(pts
+			(xy 278.13 88.9) (xy 278.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a30ec9-eb34-491a-bd9e-7b810e671bf7")
+	)
+	(bus
+		(pts
+			(xy 270.51 69.85) (xy 284.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e35425e-384b-4931-b659-2d6f885efaf8")
+	)
+	(bus
+		(pts
+			(xy 270.51 29.21) (xy 284.48 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b065f4-5586-4d9d-b8da-18d74fa02b9a")
+	)
+	(bus
+		(pts
+			(xy 270.51 82.55) (xy 284.48 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6815180e-148d-4639-b06d-83c0e7d0f73f")
+	)
+	(bus
+		(pts
+			(xy 278.13 99.06) (xy 284.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84af6a9e-f4a6-4ff0-91a4-9865de0fe94b")
+	)
+	(bus
+		(pts
+			(xy 270.51 77.47) (xy 284.48 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4b1b67-4cee-4896-bbcb-1eb4b8d40c37")
+	)
+	(bus
+		(pts
+			(xy 270.51 88.9) (xy 278.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8553b6-9717-41dd-90bf-45f4a55ea90e")
+	)
+	(sheet
+		(at 284.48 66.04)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10c83c9e-05bd-4fa1-b7e1-a721413825c3")
+		(property "Sheetname" "USB-A1"
+			(at 284.48 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-A1.kicad_sch"
+			(at 284.48 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SMBUS" bidirectional
+			(at 284.48 82.55 180)
+			(uuid "76baa271-a21e-454d-8fe9-b4b583dd9702")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-A1" input
+			(at 284.48 77.47 180)
+			(uuid "fd125ed4-85dc-4dcb-974c-78f9a870deab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRT_CTR2" input
+			(at 284.48 67.31 180)
+			(uuid "ce886722-d4df-483c-8025-25c8be719fa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRT_CTR1" input
+			(at 284.48 74.93 180)
+			(uuid "c2588d16-c6cf-4a50-ba23-677a5ea4bbe8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-A2" input
+			(at 284.48 69.85 180)
+			(uuid "14aedc31-ab6b-4909-aaca-ede12a767f19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 284.48 43.18)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ed4b4f7-0755-42d7-b5b6-c1d87d82dc96")
+		(property "Sheetname" "USB-C2"
+			(at 284.48 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C2.kicad_sch"
+			(at 284.48 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB-C2{USB3}" input
+			(at 284.48 52.07 180)
+			(uuid "fcde898d-eb49-4521-a199-75f6874d8925")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 96.52)
+		(size 31.75 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fe2d266-53fd-4db0-a3a6-d5a75d461820")
+		(property "Sheetname" "USB-C_UP"
+			(at 229.87 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_UP.kicad_sch"
+			(at 229.87 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 19.05)
+		(size 97.79 73.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84084c93-70ae-4353-a3b8-87defd735fb2")
+		(property "Sheetname" "USB7206C"
+			(at 172.72 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB7206C.kicad_sch"
+			(at 172.72 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DN1" output
+			(at 270.51 29.21 0)
+			(uuid "7e61d08c-e266-43aa-b3f4-7fb0b6f4f30e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_UP" bidirectional
+			(at 241.3 92.71 270)
+			(uuid "92c1b8d0-3020-43f6-9664-96b0d10ae9cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN3" output
+			(at 270.51 69.85 0)
+			(uuid "14bdc455-d4ef-4dfd-aac2-423c37a57d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN5" output
+			(at 270.51 88.9 0)
+			(uuid "ec578c3b-8b4d-465a-8f9a-e9dcb1f58bec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN4" output
+			(at 270.51 77.47 0)
+			(uuid "a0f45a59-0ec7-443c-a7f5-634a4b5c357c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SMBus_MSTR" output
+			(at 270.51 82.55 0)
+			(uuid "87ec6869-cf78-45dd-9e82-6544645a0353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN2{USB3}" output
+			(at 270.51 52.07 0)
+			(uuid "b9219406-3dd3-427a-9641-9aa034e991c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 284.48 20.32)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9818f2bb-7888-47ed-88c0-ae123f59f09a")
+		(property "Sheetname" "USB-C1"
+			(at 284.48 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C1.kicad_sch"
+			(at 284.48 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB-C1" input
+			(at 284.48 29.21 180)
+			(uuid "916fc788-8e55-4637-908c-231b4162d9d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 284.48 90.17)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b23769b-d955-4774-b8ac-278fd96aa141")
+		(property "Sheetname" "SD-interface"
+			(at 284.48 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD-interface.kicad_sch"
+			(at 284.48 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB3" input
+			(at 284.48 99.06 180)
+			(uuid "752feeef-a9dc-4b5d-83d0-bc3558ca58fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.845 17.78)
+		(size 96.52 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2423802-44ec-4cde-beeb-19921a82a533")
+		(property "Sheetname" "Power"
+			(at 29.845 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 29.845 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
