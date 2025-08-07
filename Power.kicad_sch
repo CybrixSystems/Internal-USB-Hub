@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "02cb1c12-27d8-4344-a7ed-4062a9213bf4")
 	(paper "A4")
+	(title_block
+		(title "USB Hub")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
@@ -2701,7 +2704,7 @@
 		)
 		(uuid "8d1d1940-e403-4d82-a527-e461c861535e")
 	)
-	(text "5V to VCORE"
+	(text "5V to 3V3"
 		(exclude_from_sim no)
 		(at 46.482 61.468 0)
 		(effects
@@ -8413,7 +8416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c264a53f-a186-4368-8217-ddcd8162636d")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 26.035 26.67 0)
 			(effects
 				(font
@@ -8465,7 +8468,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/d2423802-44ec-4cde-beeb-19921a82a533"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)

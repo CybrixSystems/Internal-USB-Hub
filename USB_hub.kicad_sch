@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "a2586c28-95f1-49e6-9254-37d7a8473e53")
 	(paper "A3")
+	(title_block
+		(title "USB Hub")
+	)
 	(lib_symbols)
 	(text "these connections may change for better routing "
 		(exclude_from_sim no)

@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "6aec924c-da15-451b-b158-edf00f7194df")
 	(paper "A4")
+	(title_block
+		(title "USB Hub")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -6393,7 +6396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e180847-e453-4b00-b0a9-3134f1bd95e2")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 273.05 40.0049 0)
 			(effects
 				(font
@@ -6471,7 +6474,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7577,7 +7580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d9ba8c-743e-40b3-ad38-d346c3b1de55")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 273.05 92.0749 0)
 			(effects
 				(font
@@ -7655,7 +7658,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)

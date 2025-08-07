@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "6b8a7dd5-c4d6-47be-ae41-a50816bd9a02")
 	(paper "A4")
+	(title_block
+		(title "USB Hub")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle"
 			(pin_names
@@ -1873,8 +1876,20 @@
 		(color 0 0 0 0)
 		(uuid "70b2c033-fff6-4745-89ad-a8870dfa3a2f")
 	)
+	(junction
+		(at 175.26 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c355d0-3a78-44ab-9793-19b968ae3eee")
+	)
+	(junction
+		(at 176.53 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd24fcd5-d64b-4427-8360-ed82f79f946b")
+	)
 	(no_connect
-		(at 165.1 52.07)
+		(at 166.37 52.07)
 		(uuid "19dd7aeb-8b62-4ec5-b3ac-3341ea162938")
 	)
 	(no_connect
@@ -1882,7 +1897,7 @@
 		(uuid "1f124f08-3e99-4c24-93f6-9482ac05c12d")
 	)
 	(no_connect
-		(at 165.1 59.69)
+		(at 166.37 59.69)
 		(uuid "4269f880-c1df-4989-b761-c52fe56805bc")
 	)
 	(no_connect
@@ -1894,7 +1909,7 @@
 		(uuid "54a4629c-1253-42d9-911a-8b39286f12c5")
 	)
 	(no_connect
-		(at 165.1 64.77)
+		(at 166.37 64.77)
 		(uuid "5b5a99ac-38a5-40eb-b299-07cc45b1171b")
 	)
 	(no_connect
@@ -1906,7 +1921,7 @@
 		(uuid "efa7f93a-1189-40e6-8853-f669975888db")
 	)
 	(no_connect
-		(at 165.1 46.99)
+		(at 166.37 46.99)
 		(uuid "f2d55ea3-4365-4d7e-b943-76e65d454283")
 	)
 	(no_connect
@@ -2091,7 +2106,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 57.15) (xy 165.1 57.15)
+			(xy 149.86 57.15) (xy 166.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2111,7 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 44.45) (xy 165.1 44.45)
+			(xy 149.86 44.45) (xy 166.37 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2141,13 +2156,33 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 49.53) (xy 165.1 49.53)
+			(xy 176.53 69.85) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552f1f27-a542-4511-a21c-0eaf0f791948")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5b966f62-f804-43e1-9622-0ac4159ca51f")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf6a77d-0165-48ba-aeb4-d6ba8b64d58e")
 	)
 	(bus
 		(pts
@@ -2218,6 +2253,16 @@
 			(type default)
 		)
 		(uuid "913d3e19-f0db-485b-b1bb-c6e9b97e00b9")
+	)
+	(wire
+		(pts
+			(xy 175.26 68.58) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a458c466-e0d7-45e9-a843-e470cdbf1161")
 	)
 	(bus
 		(pts
@@ -2311,7 +2356,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 62.23) (xy 165.1 62.23)
+			(xy 149.86 62.23) (xy 166.37 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2338,6 +2383,16 @@
 			(type default)
 		)
 		(uuid "de5adb14-0a29-48de-9eac-ee592aed4833")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a69be7-8adb-47e0-8578-338967a52dc2")
 	)
 	(wire
 		(pts
@@ -2610,7 +2665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ca68cf-5e6d-42dd-ac67-d6f2b1a473a4")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0209"
 			(at 209.55 49.53 0)
 			(effects
 				(font
@@ -2660,7 +2715,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820/3d560599-5a8a-4cf0-a02e-a2ff6ae66be7"
-					(reference "#PWR0206")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -2676,7 +2731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42a755a8-e9a9-45d1-a412-61d641fd654b")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0206"
 			(at 180.34 30.48 0)
 			(effects
 				(font
@@ -2726,7 +2781,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820/3d560599-5a8a-4cf0-a02e-a2ff6ae66be7"
-					(reference "#PWR0209")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -2808,7 +2863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4efc1477-8536-4501-b8dc-62f1b89d4554")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0210"
 			(at 175.26 76.2 0)
 			(effects
 				(font
@@ -2858,7 +2913,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820/3d560599-5a8a-4cf0-a02e-a2ff6ae66be7"
-					(reference "#PWR0208")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -2874,7 +2929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "675b0efa-e89f-4b35-805a-a34184c21089")
-		(property "Reference" "J13"
+		(property "Reference" "J14"
 			(at 267.97 20.32 0)
 			(effects
 				(font
@@ -2983,7 +3038,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820/3d560599-5a8a-4cf0-a02e-a2ff6ae66be7"
-					(reference "J13")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2998,7 +3053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72aba732-9e59-44bb-8fab-f4bfba3f9a89")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 178.054 17.78 0)
 			(effects
 				(font
@@ -3064,7 +3119,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820/3d560599-5a8a-4cf0-a02e-a2ff6ae66be7"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3126,10 +3181,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "181731eb-9bdd-468a-b084-e2f3ce1bb748")
+			(uuid "181731eb-9bdd-468a-b084-e2f3ce1bb749")
 		)
 		(pin "1"
-			(uuid "e5b4ccd8-86d1-4f3b-858b-abae0e072169")
+			(uuid "e5b4ccd8-86d1-4f3b-858b-abae0e07216a")
 		)
 		(instances
 			(project ""
@@ -3142,7 +3197,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD4E02B04DQA")
-		(at 172.72 54.61 0)
+		(at 173.99 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3150,7 +3205,7 @@
 		(dnp no)
 		(uuid "763beeeb-912e-4b6f-b8a3-20a8e6d58f28")
 		(property "Reference" "U26"
-			(at 167.64 37.084 0)
+			(at 168.91 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3159,7 +3214,7 @@
 			)
 		)
 		(property "Value" "TPD4E02B04DQA"
-			(at 167.64 39.624 0)
+			(at 168.91 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3223,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
-			(at 180.34 54.61 0)
+			(at 181.61 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3233,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf"
-			(at 175.26 54.61 0)
+			(at 176.53 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3242,7 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
-			(at 172.72 54.61 0)
+			(at 173.99 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b27625e-d57d-4600-a6f4-f4a0f9246c6e")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0208"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3289,12 +3344,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aea937fd-0e7a-4f92-ba42-d24b372237ed")
+			(uuid "aea937fd-0e7a-4f92-ba42-d24b372237ee")
 		)
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820/3d560599-5a8a-4cf0-a02e-a2ff6ae66be7"
-					(reference "#PWR0207")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -3309,7 +3364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d884201a-bd0a-4d9a-ac8d-28daa61a0228")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0207"
 			(at 247.65 30.48 0)
 			(effects
 				(font
@@ -3360,7 +3415,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820/3d560599-5a8a-4cf0-a02e-a2ff6ae66be7"
-					(reference "#PWR0205")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)

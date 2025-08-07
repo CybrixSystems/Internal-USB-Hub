@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "c38ea854-62f1-49a5-b184-74621219fb94")
 	(paper "A4")
+	(title_block
+		(title "USB Hub")
+	)
 	(lib_symbols
 		(symbol "Connector:SD_Card_Receptacle"
 			(exclude_from_sim no)
@@ -4024,7 +4027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25bf5c75-484c-4645-b34e-4bd4b070459f")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 209.1533 30.48 0)
 			(effects
 				(font
@@ -4111,7 +4114,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9b23769b-d955-4774-b8ac-278fd96aa141"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
