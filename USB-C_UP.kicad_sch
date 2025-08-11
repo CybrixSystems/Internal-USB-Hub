@@ -948,7 +948,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 246.38 37.338 90)
 			(effects
 				(font
@@ -1211,7 +1211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb8db51f-5650-4d78-92c9-0657f02fef0e")
-		(property "Reference" "C102"
+		(property "Reference" "C101"
 			(at 243.84 40.6399 0)
 			(effects
 				(font
@@ -1229,7 +1229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 240.9952 45.72 0)
 			(effects
 				(font
@@ -1265,7 +1265,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/7fe2d266-53fd-4db0-a3a6-d5a75d461820"
-					(reference "C102")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -1299,7 +1299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254.508 41.91 90)
 			(effects
 				(font

@@ -5432,7 +5432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 92.202 90)
 			(effects
 				(font
@@ -5794,7 +5794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.972 35.56 90)
 			(effects
 				(font
@@ -6077,7 +6077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
 			(at 108.9152 26.67 0)
 			(effects
 				(font
@@ -6414,7 +6414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 257.81 38.1 0)
 			(effects
 				(font
@@ -6507,7 +6507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 124.1552 26.67 0)
 			(effects
 				(font
@@ -6789,7 +6789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.498 24.13 90)
 			(effects
 				(font
@@ -6859,7 +6859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -6990,7 +6990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
 			(at 116.5352 26.67 0)
 			(effects
 				(font
@@ -7057,7 +7057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 46.482 90)
 			(effects
 				(font
@@ -7193,7 +7193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
 			(at 80.01 82.55 0)
 			(effects
 				(font
@@ -7389,7 +7389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 47.498 90)
 			(effects
 				(font
@@ -7458,7 +7458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
 			(at 93.6752 26.67 0)
 			(effects
 				(font
@@ -7527,7 +7527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
 			(at 101.2952 26.67 0)
 			(effects
 				(font
@@ -7598,7 +7598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 257.81 90.17 0)
 			(effects
 				(font
@@ -7966,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 88.9 40.64 0)
 			(effects
 				(font
@@ -8472,7 +8472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 54.61 76.962 90)
 			(effects
 				(font
@@ -8539,7 +8539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -8609,7 +8609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 45.72 86.36 0)
 			(effects
 				(font
@@ -8682,7 +8682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.598 31.75 90)
 			(effects
 				(font
