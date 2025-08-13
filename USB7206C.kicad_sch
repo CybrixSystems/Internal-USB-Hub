@@ -3489,119 +3489,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VSS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VSS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VSS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VSS_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "VSS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 20.32 248.92)
@@ -6736,7 +6623,7 @@
 		)
 		(uuid "13b8ba24-f600-4ebb-a1f1-e8bce3d039d5")
 	)
-	(label "USB3UP.D+"
+	(label "USB3_UP.D+"
 		(at 175.26 152.4 0)
 		(effects
 			(font
@@ -6756,7 +6643,7 @@
 		)
 		(uuid "1586ad50-a816-4956-a5eb-a8c80b62355f")
 	)
-	(label "USB3DN2.TX1-"
+	(label "USB3_DN5.TX1-"
 		(at 175.26 165.1 0)
 		(effects
 			(font
@@ -6786,7 +6673,7 @@
 		)
 		(uuid "2295c808-ce4b-424b-ad4c-32e8d9d78b1c")
 	)
-	(label "USB3UP.RX1-"
+	(label "USB3_UP.RX1-"
 		(at 175.26 137.16 0)
 		(effects
 			(font
@@ -6806,7 +6693,7 @@
 		)
 		(uuid "2d7f08b9-8e5d-4d46-9c0d-afbb8848dcd5")
 	)
-	(label "USB3UP.RX1+"
+	(label "USB3_UP.RX1+"
 		(at 175.26 139.7 0)
 		(effects
 			(font
@@ -6846,16 +6733,6 @@
 		)
 		(uuid "3defeed5-6c85-46b3-860a-be410ddc6c22")
 	)
-	(label "XIN"
-		(at 173.99 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44f4d988-2571-4e02-bb54-9277b28030cc")
-	)
 	(label "CFG_STRAP2"
 		(at 30.48 261.62 0)
 		(effects
@@ -6866,7 +6743,7 @@
 		)
 		(uuid "48d3a976-42ff-41b5-87c5-77986552ad32")
 	)
-	(label "USB3DN2.TX1+"
+	(label "USB3_DN5.TX1+"
 		(at 175.26 167.64 0)
 		(effects
 			(font
@@ -6896,7 +6773,7 @@
 		)
 		(uuid "52932e4b-6016-4577-bdf3-d519e89e9242")
 	)
-	(label "USB3DN2.D-"
+	(label "USB3_DN5.D-"
 		(at 175.26 170.18 0)
 		(effects
 			(font
@@ -6905,6 +6782,16 @@
 			(justify left bottom)
 		)
 		(uuid "53a467fc-e1ba-4ab4-b9a2-7bbc13f67962")
+	)
+	(label "XTALO"
+		(at 198.12 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55f5be59-a72b-4032-9e99-9fd6605e13ce")
 	)
 	(label "USB3_DN3.TX1+"
 		(at 167.64 82.55 0)
@@ -6926,6 +6813,16 @@
 		)
 		(uuid "668db893-972d-4651-8124-9934ce3f3d75")
 	)
+	(label "XTALI"
+		(at 173.99 255.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7661e698-8fea-4480-b5c2-9b29b593bd51")
+	)
 	(label "SMBus_MSTR.SDA"
 		(at 34.29 31.75 0)
 		(effects
@@ -6936,7 +6833,7 @@
 		)
 		(uuid "78d0c3a5-bb57-4306-8663-3c9145697e38")
 	)
-	(label "USB3UP.TX1-"
+	(label "USB3_UP.TX1-"
 		(at 175.26 144.78 0)
 		(effects
 			(font
@@ -7006,7 +6903,7 @@
 		)
 		(uuid "8e7816e0-9fd2-41dd-a89b-20b2127b50f9")
 	)
-	(label "USB3DN2.RX1-"
+	(label "USB3_DN5.RX1-"
 		(at 175.26 157.48 0)
 		(effects
 			(font
@@ -7015,16 +6912,6 @@
 			(justify left bottom)
 		)
 		(uuid "942ccf65-9aef-4db6-b37f-d50aec56240c")
-	)
-	(label "XOUT"
-		(at 194.31 255.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b6d7f3a-d354-45be-80d8-c3317f7a7700")
 	)
 	(label "CFG_BC_EN"
 		(at 40.64 167.64 0)
@@ -7056,7 +6943,7 @@
 		)
 		(uuid "a1537267-45d5-4d81-ac8d-b105ce594546")
 	)
-	(label "USB3UP.D-"
+	(label "USB3_UP.D-"
 		(at 175.26 149.86 0)
 		(effects
 			(font
@@ -7116,7 +7003,7 @@
 		)
 		(uuid "b925bd1c-f9ca-4a9b-bf8d-dc46f2caae31")
 	)
-	(label "USB3DN2.D+"
+	(label "USB3_DN5.D+"
 		(at 175.26 172.72 0)
 		(effects
 			(font
@@ -7126,7 +7013,7 @@
 		)
 		(uuid "bd769574-fbca-4afb-a22d-b566fa38552f")
 	)
-	(label "USB3UP{USB3}"
+	(label "USB3_UP{USB3}"
 		(at 201.93 154.94 0)
 		(effects
 			(font
@@ -7176,7 +7063,7 @@
 		)
 		(uuid "c5c7d0a9-01ab-408c-b84b-44d867b33b51")
 	)
-	(label "USB3UP.TX1+"
+	(label "USB3_UP.TX1+"
 		(at 175.26 147.32 0)
 		(effects
 			(font
@@ -7216,7 +7103,7 @@
 		)
 		(uuid "db0a808b-cb6f-43df-b306-da53aac4e2f7")
 	)
-	(label "USB3DN2.RX1+"
+	(label "USB3_DN5.RX1+"
 		(at 175.26 160.02 0)
 		(effects
 			(font
@@ -7236,7 +7123,7 @@
 		)
 		(uuid "e662df51-0b5f-4ccf-a17a-da3a1627e055")
 	)
-	(label "USB3DN2{USB3}"
+	(label "USB3_DN5{USB3}"
 		(at 199.39 175.26 0)
 		(effects
 			(font
@@ -8194,7 +8081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254.762 259.08 90)
 			(effects
 				(font
@@ -8468,7 +8355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 44.45 156.718 90)
 			(effects
 				(font
@@ -9306,72 +9193,6 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VSS")
-		(at 213.36 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6466f52e-a65f-4451-b84d-2b619cb9b539")
-		(property "Reference" "#PWR016"
-			(at 213.36 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 213.36 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 213.36 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59bb20f8-c7e5-464d-9b30-68ed5eede1bd")
-		)
-		(instances
-			(project "USB_hub"
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10793,7 +10614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.8 265.938 90)
 			(effects
 				(font
@@ -11064,7 +10885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.47 126.238 90)
 			(effects
 				(font
@@ -11233,6 +11054,72 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a47f17af-be0b-4370-a603-7a7405b92c5d")
+		(property "Reference" "#PWR014"
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8492947c-a733-4571-8163-f7fef0c77a0e")
+		)
+		(instances
+			(project ""
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11754,7 +11641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 44.45 151.638 90)
 			(effects
 				(font
@@ -11866,17 +11753,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 196.85 121.92 180)
+		(lib_id "power:GND")
+		(at 196.85 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d39a60a7-96d4-42dd-b66c-1ebda5c09d5b")
-		(property "Reference" "#PWR014"
-			(at 196.85 118.11 0)
+		(uuid "c8e75305-66a8-4358-85d5-1e18e8cb9ffa")
+		(property "Reference" "#PWR016"
+			(at 196.85 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11884,7 +11771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSS"
+		(property "Value" "GND"
 			(at 196.85 127 0)
 			(effects
 				(font
@@ -11910,7 +11797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 196.85 121.92 0)
 			(effects
 				(font
@@ -11920,12 +11807,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e735f710-ad91-481b-9826-99a7e1d0b93c")
+			(uuid "8492947c-a733-4571-8163-f7fef0c77a0e")
 		)
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12022,7 +11909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 44.45 154.178 90)
 			(effects
 				(font
