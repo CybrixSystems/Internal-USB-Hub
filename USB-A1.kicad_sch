@@ -1959,7 +1959,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Protection:TPD4E02B04DQA"
+		(symbol "Snapeda:TPD4E02B04DQA"
 			(pin_names
 				(hide yes)
 			)
@@ -2320,7 +2320,7 @@
 					)
 				)
 				(pin free line
-					(at -7.62 7.62 0)
+					(at -7.62 10.16 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2356,7 +2356,7 @@
 					)
 				)
 				(pin free line
-					(at -7.62 2.54 0)
+					(at -7.62 5.08 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2392,7 +2392,7 @@
 					)
 				)
 				(pin free line
-					(at -7.62 -5.08 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -2428,7 +2428,7 @@
 					)
 				)
 				(pin free line
-					(at -7.62 -10.16 0)
+					(at -7.62 -7.62 0)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -5475,7 +5475,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:TPD4E02B04DQA")
+		(lib_id "Snapeda:TPD4E02B04DQA")
 		(at 106.68 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8207,7 +8207,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Power_Protection:TPD4E02B04DQA")
+		(lib_id "Snapeda:TPD4E02B04DQA")
 		(at 106.68 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
