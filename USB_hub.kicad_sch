@@ -18,6 +18,26 @@
 		)
 		(uuid "167224f7-8088-4ff7-902f-f95db9bd5182")
 	)
+	(text_box "Two options:\n1. Normal USB Type-C connector\n2. USB Type-C Internal Connector\n\nSecond solution is excluded"
+		(exclude_from_sim no)
+		(at 208.28 137.16 0)
+		(size 29.21 20.955)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "352f1ddf-845a-4ef3-97f5-725f0ea6addd")
+	)
 	(bus
 		(pts
 			(xy 270.51 52.07) (xy 284.48 52.07)
@@ -58,16 +78,6 @@
 		)
 		(uuid "0e35425e-384b-4931-b659-2d6f885efaf8")
 	)
-	(wire
-		(pts
-			(xy 248.92 92.71) (xy 248.92 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f4f8c3a-8162-4d7d-9fea-20505e88270b")
-	)
 	(bus
 		(pts
 			(xy 270.51 29.21) (xy 284.48 29.21)
@@ -100,13 +110,23 @@
 	)
 	(bus
 		(pts
-			(xy 245.11 92.71) (xy 245.11 96.52)
+			(xy 245.11 92.71) (xy 245.11 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75440407-1f06-419a-ad34-96e074f5bd78")
+	)
+	(bus
+		(pts
+			(xy 245.11 151.13) (xy 271.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0bd784-80a9-49b0-b301-9d1ae08eb3b1")
 	)
 	(bus
 		(pts
@@ -283,68 +303,6 @@
 		)
 	)
 	(sheet
-		(at 229.87 96.52)
-		(size 31.75 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7fe2d266-53fd-4db0-a3a6-d5a75d461820")
-		(property "Sheetname" "USB-C_UP"
-			(at 229.87 95.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB-C_UP.kicad_sch"
-			(at 229.87 117.4246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VBUS_DET" output
-			(at 248.92 96.52 90)
-			(uuid "6ff13e9f-c1ff-4a4d-baca-6d6ca10ad4f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB-C_UP" output
-			(at 245.11 96.52 90)
-			(uuid "1046e52f-e17f-42cd-b498-3ae37635e534")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "USB_hub"
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 172.72 19.05)
 		(size 97.79 73.66)
 		(exclude_from_sim no)
@@ -446,16 +404,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "VBUS_DET" input
-			(at 248.92 92.71 270)
-			(uuid "b491d9fa-096c-4d75-9211-a32af33ccc61")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "PRT_CTL4" output
@@ -591,6 +539,58 @@
 		)
 	)
 	(sheet
+		(at 271.78 135.255)
+		(size 62.865 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c482699f-16ee-4a02-bb28-667e2389d2fc")
+		(property "Sheetname" "USB-C_UP1"
+			(at 271.78 134.5434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-C_UP1.kicad_sch"
+			(at 271.78 166.3196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB-C_UP" output
+			(at 271.78 151.13 180)
+			(uuid "6a51a279-3b8f-498f-bbfa-3235667a370d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 29.845 17.78)
 		(size 96.52 74.93)
 		(exclude_from_sim no)
@@ -628,6 +628,58 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 271.78 172.085)
+		(size 62.865 31.115)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df13e2b1-cca0-408c-9316-50e440f0b300")
+		(property "Sheetname" "USB-E"
+			(at 271.78 171.3734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB-E_UP.kicad_sch"
+			(at 271.78 203.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB-C_UP" output
+			(at 271.78 180.34 180)
+			(uuid "536b8498-0025-4ec4-a08e-664ecb8c64f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53"
+					(page "10")
 				)
 			)
 		)

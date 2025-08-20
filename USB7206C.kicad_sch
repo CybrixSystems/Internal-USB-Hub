@@ -2796,6 +2796,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:ESD441DPLR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD441DPLR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:X2SON-2_L0.6-W0.3-P0.35"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22427765"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD441DPLR_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.29) (xy -1.52 1.27) (xy -1.52 -1.27) (xy -0.51 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.02 -1.52) (xy -1.52 0) (xy 1.02 1.78) (xy 1.02 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:MIC803-29D4VM3-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3308,6 +3428,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers
@@ -3447,6 +3692,18 @@
 		(uuid 26208640-d032-41a4-9b65-825067e030b5)
 	)
 	(rectangle
+		(start 311.15 209.55)
+		(end 397.51 245.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid afd76505-9bcb-4e9a-8650-d02868afcded)
+	)
+	(rectangle
 		(start 156.21 236.22)
 		(end 217.17 281.94)
 		(stroke
@@ -3479,6 +3736,16 @@
 			)
 		)
 		(uuid "0349ab92-9384-445d-ba76-db03ab60124c")
+	)
+	(text "VBUS Detection & ESD Protection"
+		(exclude_from_sim no)
+		(at 353.568 211.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7912f1f2-975f-4419-820c-7b0a61232d7f")
 	)
 	(text "XTAL"
 		(exclude_from_sim no)
@@ -3519,6 +3786,12 @@
 			(justify left top)
 		)
 		(uuid "f09374a5-e185-412f-96b3-b88dba7209f9")
+	)
+	(junction
+		(at 359.41 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01447a50-5e44-4e0c-a8be-46a46eee6329")
 	)
 	(junction
 		(at 60.96 184.15)
@@ -3579,6 +3852,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26861ea9-6184-408b-a76a-76b2019dd738")
+	)
+	(junction
+		(at 330.2 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28d80199-2f31-48c1-b7eb-84bdca2c4223")
+	)
+	(junction
+		(at 365.76 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cca2a01-00f3-46fc-aba4-a5e79f9eccbf")
 	)
 	(junction
 		(at 60.96 165.1)
@@ -3675,6 +3960,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d5ee01c-a60f-42ef-ac7e-280680d4b658")
+	)
+	(junction
+		(at 372.11 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e87a90e-7a23-4490-be1d-c4a708a35449")
 	)
 	(junction
 		(at 45.72 57.15)
@@ -4779,6 +5070,26 @@
 		)
 		(uuid "1b1edc17-54df-4128-a7ee-eaa437e8d174")
 	)
+	(wire
+		(pts
+			(xy 372.11 227.33) (xy 369.57 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c17a966-b306-4f8e-b4ed-fe8c5b3f10f3")
+	)
+	(wire
+		(pts
+			(xy 323.85 227.33) (xy 330.2 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e04ab49-d5d7-47b6-b6b4-2980a6922555")
+	)
 	(bus
 		(pts
 			(xy 191.77 90.17) (xy 191.77 87.63)
@@ -4989,6 +5300,16 @@
 		)
 		(uuid "448ae82f-5461-461b-97ee-1cc152e73ecb")
 	)
+	(wire
+		(pts
+			(xy 372.11 237.49) (xy 372.11 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a2f265-1f46-4ed2-a99c-9be0e93c54fd")
+	)
 	(bus
 		(pts
 			(xy 191.77 140.97) (xy 191.77 138.43)
@@ -5171,6 +5492,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 227.33) (xy 382.27 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559bd6fc-6cdb-451e-825c-555acc9ed0c3")
+	)
+	(wire
+		(pts
 			(xy 308.61 27.94) (xy 317.5 27.94)
 		)
 		(stroke
@@ -5198,6 +5529,16 @@
 			(type default)
 		)
 		(uuid "597cb071-8292-4016-ae39-aabf397e3373")
+	)
+	(wire
+		(pts
+			(xy 359.41 229.87) (xy 359.41 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0c8d54-f75d-4fcb-b72b-57e3cb87b6dc")
 	)
 	(wire
 		(pts
@@ -5268,6 +5609,16 @@
 			(type default)
 		)
 		(uuid "68bdfef9-22e7-4acf-9348-942831b65725")
+	)
+	(wire
+		(pts
+			(xy 323.85 226.06) (xy 323.85 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ae116a-cb43-472c-8b01-b4150984e022")
 	)
 	(wire
 		(pts
@@ -5478,6 +5829,16 @@
 			(type default)
 		)
 		(uuid "874a6ff0-47e3-4472-8b67-43b77a88ed86")
+	)
+	(wire
+		(pts
+			(xy 330.2 227.33) (xy 359.41 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bba746-af1d-4cfd-b41d-4de80cc72993")
 	)
 	(wire
 		(pts
@@ -5729,6 +6090,16 @@
 		)
 		(uuid "afd3a65a-6812-4382-a984-fcea06ddc22a")
 	)
+	(wire
+		(pts
+			(xy 365.76 238.76) (xy 359.41 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b031f486-3cfc-4f51-b6d4-d015ff3f2807")
+	)
 	(bus
 		(pts
 			(xy 191.77 115.57) (xy 191.77 113.03)
@@ -5949,6 +6320,16 @@
 		)
 		(uuid "d05a9000-839b-4273-ae85-c37ff34ebb94")
 	)
+	(wire
+		(pts
+			(xy 359.41 238.76) (xy 359.41 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d375c7d7-a75d-4be9-a450-414c0f56ecfc")
+	)
 	(bus
 		(pts
 			(xy 191.77 138.43) (xy 191.77 134.62)
@@ -5961,7 +6342,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 22.86) (xy 60.96 22.86)
+			(xy 49.53 22.86) (xy 60.96 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6038,6 +6419,16 @@
 			(type default)
 		)
 		(uuid "dc4befe4-b4ad-4507-879b-edb755c13fe6")
+	)
+	(wire
+		(pts
+			(xy 359.41 227.33) (xy 361.95 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc9d295e-5312-4031-8f32-c2e262c0ef2e")
 	)
 	(wire
 		(pts
@@ -6239,6 +6630,16 @@
 		)
 		(uuid "e9d5430a-2890-4f7b-8eaa-5d1c84a680db")
 	)
+	(wire
+		(pts
+			(xy 372.11 229.87) (xy 372.11 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0aa617-8ac8-4d13-8972-561e179ed8d5")
+	)
 	(bus
 		(pts
 			(xy 191.77 134.62) (xy 191.77 132.08)
@@ -6298,6 +6699,16 @@
 			(type default)
 		)
 		(uuid "f0bd3234-a152-4fdd-9a7f-62d8070efab0")
+	)
+	(wire
+		(pts
+			(xy 372.11 238.76) (xy 365.76 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ef91ca-42aa-4bf2-8035-7284b798879f")
 	)
 	(wire
 		(pts
@@ -6809,6 +7220,16 @@
 		)
 		(uuid "b368b348-8f4f-417c-bbe4-9d64bcc267c8")
 	)
+	(label "VBUS_DET"
+		(at 49.53 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f2002a-d069-4b61-823e-c9ab1383f7a9")
+	)
 	(label "USB3_DN4{USB3}"
 		(at 200.66 100.33 0)
 		(effects
@@ -7106,17 +7527,6 @@
 		)
 		(uuid "950379f2-a4a9-41bf-99ec-6d1f6e0ff055")
 	)
-	(hierarchical_label "VBUS_DET"
-		(shape input)
-		(at 53.34 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a33d18b2-3794-48af-86da-5242c310062a")
-	)
 	(hierarchical_label "PRT_CTL3"
 		(shape output)
 		(at 176.53 73.66 0)
@@ -7138,6 +7548,72 @@
 			(justify right)
 		)
 		(uuid "e205e6b2-b9fc-4ba5-a01c-53d4cdbe2245")
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 323.85 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "025f2b32-ce99-4e79-85f3-b52bf90fb6a8")
+		(property "Reference" "#PWR0186"
+			(at 323.85 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_UP"
+			(at 320.04 221.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 323.85 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0d1902f-e1cb-4530-9b68-072b92b85caf")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7471,6 +7947,74 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 365.76 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3545cec8-a98f-4014-bafd-c4eb1f2a4a55")
+		(property "Reference" "R62"
+			(at 365.76 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33k"
+			(at 365.76 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 365.76 229.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 365.76 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6ca421d-35e9-4e7f-a5ac-c8eb9671c4e9")
+		)
+		(pin "2"
+			(uuid "20e845c9-8920-44f5-a0d6-fe4b84e10121")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -9521,6 +10065,217 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:ESD441DPLR")
+		(at 330.2 232.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f1efa4-3401-481f-880e-2722a86be657")
+		(property "Reference" "D7"
+			(at 334.01 230.5049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD441DPLR"
+			(at 334.01 233.0449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:X2SON-2_L0.6-W0.3-P0.35"
+			(at 322.58 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22427765"
+			(at 320.04 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f02b012c-71e4-4cd2-a911-02da219b138a")
+		)
+		(pin "1"
+			(uuid "79a080ee-c34d-4023-8b53-f27443c6449e")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 365.76 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a405cb-ee1f-4732-a7f7-845c629fdb94")
+		(property "Reference" "#PWR0188"
+			(at 365.76 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 365.76 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 365.76 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 365.76 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 365.76 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33091cd0-2357-4922-89f2-96c1dc292d86")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b48d6d8-97c5-457b-b5c7-fbb82c9e5fa0")
+		(property "Reference" "#PWR0187"
+			(at 330.2 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07f947b7-359b-4c53-930a-9e3d8c1f17a7")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "#PWR0187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 31.75 50.8 270)
 		(mirror x)
@@ -10916,6 +11671,146 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 359.41 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb8db51f-5650-4d78-92c9-0657f02fef0e")
+		(property "Reference" "C101"
+			(at 363.22 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 363.22 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 360.3752 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 359.41 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3141b6b2-40c1-4e7b-8a1c-190b6a0eb332")
+		)
+		(pin "2"
+			(uuid "5b4116bf-e9d8-437a-b2fe-d8ed445e2fe2")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "C101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 372.11 233.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2ed911e-2921-4079-ad17-04f4ccc4094d")
+		(property "Reference" "R63"
+			(at 374.65 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50k"
+			(at 374.65 234.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 373.888 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 372.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6ca421d-35e9-4e7f-a5ac-c8eb9671c4ea")
+		)
+		(pin "2"
+			(uuid "20e845c9-8920-44f5-a0d6-fe4b84e10122")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
+					(reference "R63")
 					(unit 1)
 				)
 			)
