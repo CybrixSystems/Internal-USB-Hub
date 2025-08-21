@@ -4209,6 +4209,16 @@
 		)
 		(uuid "129168ee-0ca0-49cf-9a59-c0fa7e5c81c5")
 	)
+	(text "I2C Address 0x47"
+		(exclude_from_sim no)
+		(at 41.148 192.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14e8bc47-44a4-4c5c-8ca6-d9e11e82ceda")
+	)
 	(text "3 page HD3SS3220\ndatasheet"
 		(exclude_from_sim no)
 		(at 25.654 68.58 0)

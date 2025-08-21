@@ -3737,6 +3737,26 @@
 		)
 		(uuid "0349ab92-9384-445d-ba76-db03ab60124c")
 	)
+	(text "SPI Address\n0x3FFFA for DFU\n0x0000 for the external SPI ROM"
+		(exclude_from_sim no)
+		(at 7.874 138.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "333c85ea-e7e6-456b-8028-1471be3a3083")
+	)
+	(text "0x2D"
+		(exclude_from_sim no)
+		(at -93.726 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e74b754-df2d-40a1-82e4-4d606ffbec99")
+	)
 	(text "VBUS Detection & ESD Protection"
 		(exclude_from_sim no)
 		(at 353.568 211.582 0)
@@ -5492,7 +5512,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 227.33) (xy 382.27 227.33)
+			(xy 372.11 227.33) (xy 391.16 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6939,6 +6959,16 @@
 			(justify right bottom)
 		)
 		(uuid "240b3b71-46a3-4d06-b745-438a83ddeb02")
+	)
+	(label "VBUS_DET"
+		(at 391.16 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cba59e6-0fde-465c-bbf3-0dc365f7e690")
 	)
 	(label "USB3_DN2.D+"
 		(at 189.23 52.07 180)

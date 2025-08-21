@@ -3564,6 +3564,16 @@
 		)
 		(uuid "9f2e033e-6199-44d0-9526-df0b3a641aa7")
 	)
+	(text "I2C Address 0x67"
+		(exclude_from_sim no)
+		(at 40.64 192.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c01427d4-6786-4d9d-abbb-216c2773bed8")
+	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
 		(at 226.822 115.316 0)
@@ -5754,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 187.96) (xy 29.21 187.96)
+			(xy 19.05 187.96) (xy 29.21 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7796,72 +7806,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65b41b07-b14b-4158-a621-79cda20f21ec")
-		(property "Reference" "#PWR0194"
-			(at 25.4 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74184d76-b71e-4b74-88f5-642044bd34eb")
-		)
-		(instances
-			(project "USB_hub"
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/c482699f-16ee-4a02-bb28-667e2389d2fc"
-					(reference "#PWR0194")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 69.85 171.45 0)
 		(unit 1)
@@ -8257,6 +8201,72 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/c482699f-16ee-4a02-bb28-667e2389d2fc"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 19.05 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8302a450-5dde-4797-8088-6042057cbeca")
+		(property "Reference" "#PWR0157"
+			(at 19.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 19.05 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 19.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b89f4e20-36a6-42ae-ab9a-8af437c928ec")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/c482699f-16ee-4a02-bb28-667e2389d2fc"
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)

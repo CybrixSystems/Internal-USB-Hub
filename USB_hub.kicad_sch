@@ -192,16 +192,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SMBUS" bidirectional
-			(at 284.48 82.55 180)
-			(uuid "76baa271-a21e-454d-8fe9-b4b583dd9702")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB-A1" input
 			(at 284.48 77.47 180)
 			(uuid "fd125ed4-85dc-4dcb-974c-78f9a870deab")
@@ -212,29 +202,29 @@
 				(justify left)
 			)
 		)
-		(pin "PRT_CTR2" input
-			(at 284.48 67.31 180)
-			(uuid "ce886722-d4df-483c-8025-25c8be719fa8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PRT_CTR1" input
-			(at 284.48 74.93 180)
-			(uuid "c2588d16-c6cf-4a50-ba23-677a5ea4bbe8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB-A2" input
 			(at 284.48 69.85 180)
 			(uuid "14aedc31-ab6b-4909-aaca-ede12a767f19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRT_EN2" input
+			(at 284.48 67.31 180)
+			(uuid "b83c791f-00fd-49e1-a547-946c0c00312a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PRT_EN1" input
+			(at 284.48 74.93 180)
+			(uuid "6dabf511-7ea5-44da-aba2-db4efa273ba3")
 			(effects
 				(font
 					(size 1.27 1.27)
