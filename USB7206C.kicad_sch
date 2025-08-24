@@ -7451,7 +7451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "025f2b32-ce99-4e79-85f3-b52bf90fb6a8")
-		(property "Reference" "#PWR0186"
+		(property "Reference" "#PWR010"
 			(at 323.85 229.87 0)
 			(effects
 				(font
@@ -7502,7 +7502,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR0186")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7653,7 +7653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1145cc85-0c22-4e1b-871a-467b788c074f")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR013"
 			(at 186.69 243.84 0)
 			(effects
 				(font
@@ -7703,7 +7703,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR025")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7719,7 +7719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "141a0ca6-efe5-4b3c-a8dc-51e348a5b787")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 177.8 259.0799 0)
 			(effects
 				(font
@@ -7773,7 +7773,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -7789,7 +7789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f30fa03-10ac-4f9a-a9ac-8fbb10d138ad")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR014"
 			(at 256.54 259.08 0)
 			(effects
 				(font
@@ -7839,7 +7839,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR026")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7855,7 +7855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3545cec8-a98f-4014-bafd-c4eb1f2a4a55")
-		(property "Reference" "R62"
+		(property "Reference" "R5"
 			(at 365.76 220.98 90)
 			(effects
 				(font
@@ -7907,7 +7907,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "R62")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7923,7 +7923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39a5a22b-f119-4939-8b0f-a2fd5f8c7d9f")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 259.08 257.8099 0)
 			(effects
 				(font
@@ -7977,7 +7977,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8267,7 +8267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4beac931-ad50-4d88-b5c8-c6ba15fef0ed")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR016"
 			(at 186.69 266.7 0)
 			(effects
 				(font
@@ -8317,7 +8317,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR028")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8401,7 +8401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f615b47-df47-4fd8-b9a4-a62e80c72951")
-		(property "Reference" "R71"
+		(property "Reference" "R7"
 			(at 46.228 257.81 90)
 			(effects
 				(font
@@ -8453,7 +8453,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "R71")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8469,7 +8469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "504444cc-c775-4c3f-81c4-8ed534c9a21c")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR020"
 			(at 60.96 273.05 0)
 			(effects
 				(font
@@ -8519,7 +8519,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR032")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8604,7 +8604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "513157d3-6a90-4a50-be04-840f4d4db4f7")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR021"
 			(at 257.81 279.4 0)
 			(effects
 				(font
@@ -8654,7 +8654,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR033")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8671,7 +8671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54582ca4-cf49-4cb0-8ce7-d2812811301d")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR08"
 			(at 44.45 190.5 0)
 			(effects
 				(font
@@ -8721,7 +8721,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR013")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8737,7 +8737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b661f2c-3c0f-497f-b569-f34c8a822506")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 201.93 259.0799 0)
 			(effects
 				(font
@@ -8791,7 +8791,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8807,7 +8807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62d9af7b-8330-41ba-97e1-ff71333b18fb")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR015"
 			(at 280.67 262.89 0)
 			(effects
 				(font
@@ -8857,7 +8857,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR027")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8873,7 +8873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65a518a5-a940-4043-aa17-c858cdb700ac")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR019"
 			(at 229.87 267.97 0)
 			(effects
 				(font
@@ -8923,7 +8923,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR031")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9226,7 +9226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ce06c4c-36b2-45bf-b339-43f85fa1e1bf")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR04"
 			(at 308.61 54.61 0)
 			(effects
 				(font
@@ -9276,7 +9276,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR06")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9429,7 +9429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b6ff940-730a-4585-9df1-4eda223be623")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR017"
 			(at 173.99 270.51 0)
 			(effects
 				(font
@@ -9479,7 +9479,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR029")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9764,7 +9764,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "871bb9b5-adab-4473-9d9f-e3cc1cacc76d")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 46.228 262.89 90)
 			(effects
 				(font
@@ -9816,7 +9816,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9901,7 +9901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8df18cc9-1620-4613-94eb-95214e53d30a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 176.53 198.12 0)
 			(effects
 				(font
@@ -9951,7 +9951,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9967,7 +9967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92f1efa4-3401-481f-880e-2722a86be657")
-		(property "Reference" "D7"
+		(property "Reference" "D1"
 			(at 334.01 230.5049 90)
 			(effects
 				(font
@@ -10030,7 +10030,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10046,7 +10046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99a405cb-ee1f-4732-a7f7-845c629fdb94")
-		(property "Reference" "#PWR0188"
+		(property "Reference" "#PWR012"
 			(at 365.76 245.11 0)
 			(effects
 				(font
@@ -10096,7 +10096,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR0188")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10112,7 +10112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b48d6d8-97c5-457b-b5c7-fbb82c9e5fa0")
-		(property "Reference" "#PWR0187"
+		(property "Reference" "#PWR011"
 			(at 330.2 243.84 0)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR0187")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10247,7 +10247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3f832a9-3ff7-489f-9e78-e6f092295deb")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR07"
 			(at 44.45 166.37 0)
 			(effects
 				(font
@@ -10297,7 +10297,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR024")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10314,7 +10314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47f17af-be0b-4370-a603-7a7405b92c5d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 22.86 57.15 0)
 			(effects
 				(font
@@ -10364,7 +10364,7 @@
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10598,7 +10598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ac8da2-0689-413c-a9d9-1a7fef9a5640")
-		(property "Reference" "U27"
+		(property "Reference" "U1"
 			(at 116.84 15.24 0)
 			(effects
 				(font
@@ -10949,7 +10949,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "U27")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11038,7 +11038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6d79cc1-808d-4612-84f8-f0804f007cf5")
-		(property "Reference" "R70"
+		(property "Reference" "R9"
 			(at 46.228 260.35 90)
 			(effects
 				(font
@@ -11090,7 +11090,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "R70")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11106,7 +11106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bac615cf-ec56-4f28-901e-b73199cbba6c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR06"
 			(at 43.18 60.96 0)
 			(effects
 				(font
@@ -11156,7 +11156,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR019")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11308,7 +11308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d475ed61-5057-422f-8565-72304653170c")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR018"
 			(at 198.12 270.51 0)
 			(effects
 				(font
@@ -11358,7 +11358,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "#PWR030")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11579,7 +11579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb8db51f-5650-4d78-92c9-0657f02fef0e")
-		(property "Reference" "C101"
+		(property "Reference" "C20"
 			(at 363.22 232.4099 0)
 			(effects
 				(font
@@ -11633,7 +11633,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "C101")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -11649,7 +11649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ed911e-2921-4079-ad17-04f4ccc4094d")
-		(property "Reference" "R63"
+		(property "Reference" "R6"
 			(at 374.65 232.4099 0)
 			(effects
 				(font
@@ -11703,7 +11703,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/84084c93-70ae-4353-a3b8-87defd735fb2"
-					(reference "R63")
+					(reference "R6")
 					(unit 1)
 				)
 			)

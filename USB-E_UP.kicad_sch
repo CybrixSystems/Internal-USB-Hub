@@ -2351,7 +2351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07e6e790-0187-440c-bf29-50acd1e8225c")
-		(property "Reference" "R68"
+		(property "Reference" "R98"
 			(at 203.2 35.5599 0)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "R68")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -2421,7 +2421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ca68cf-5e6d-42dd-ac67-d6f2b1a473a4")
-		(property "Reference" "#PWR0197"
+		(property "Reference" "#PWR0237"
 			(at 209.55 49.53 0)
 			(effects
 				(font
@@ -2471,7 +2471,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "#PWR0197")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -2487,7 +2487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "449168f3-b83d-4fa6-b6f9-a8ea999305d6")
-		(property "Reference" "#PWR0200"
+		(property "Reference" "#PWR0240"
 			(at 267.97 100.33 0)
 			(effects
 				(font
@@ -2537,7 +2537,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "#PWR0200")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4865a8e3-4a4c-4b66-aead-3f1fcf6f8949")
-		(property "Reference" "U25"
+		(property "Reference" "U30"
 			(at 167.64 12.954 0)
 			(effects
 				(font
@@ -2631,7 +2631,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "U25")
+					(reference "U30")
 					(unit 1)
 				)
 			)
@@ -2647,7 +2647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4efc1477-8536-4501-b8dc-62f1b89d4554")
-		(property "Reference" "#PWR0199"
+		(property "Reference" "#PWR0239"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -2697,7 +2697,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "#PWR0199")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -2838,7 +2838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a91f174-5b99-4c3e-b175-ba79b53627b7")
-		(property "Reference" "#PWR0198"
+		(property "Reference" "#PWR0238"
 			(at 175.26 52.07 0)
 			(effects
 				(font
@@ -2888,7 +2888,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "#PWR0198")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -2904,7 +2904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75679765-d9b3-4949-8b72-5012a2db1fb2")
-		(property "Reference" "R69"
+		(property "Reference" "R99"
 			(at 212.09 38.0999 0)
 			(effects
 				(font
@@ -2958,7 +2958,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "R69")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "763beeeb-912e-4b6f-b8a3-20a8e6d58f28")
-		(property "Reference" "U26"
+		(property "Reference" "U31"
 			(at 167.64 47.244 0)
 			(effects
 				(font
@@ -3052,7 +3052,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "U26")
+					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b27625e-d57d-4600-a6f4-f4a0f9246c6e")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0236"
 			(at 200.66 46.99 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "#PWR0196")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -3133,7 +3133,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "d884201a-bd0a-4d9a-ac8d-28daa61a0228")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0235"
 			(at 247.65 30.48 0)
 			(effects
 				(font
@@ -3184,7 +3184,7 @@
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/df13e2b1-cca0-408c-9316-50e440f0b300"
-					(reference "#PWR0195")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
