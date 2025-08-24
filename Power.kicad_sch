@@ -8,171 +8,6 @@
 		(title "USB Hub")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1972,6 +1807,266 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:45586-0005"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "45586-0005"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "45586-000Y"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/455860005_sd.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mini-Fit Jr. Header, Dual Row, Right-Angle, Third Generation Polarization Type for PCIe Applications, 8 Circuits, UL 94V-0, 0.76&micro;m Select Gold (Au) Plating, Black"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-45586-0005"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/45586-0005?qs=55YtniHzbhC5SOM%252Bi9XsaA%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "45586-0005"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "45586-0005_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3916,6 +4011,12 @@
 		(uuid "1496e2fc-7d04-47c3-ab71-bce027dbca5a")
 	)
 	(junction
+		(at 24.13 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15bdb01e-87d9-4798-ac3d-44e9e301a501")
+	)
+	(junction
 		(at 34.29 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3992,6 +4093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e9b4922-accc-424a-bdef-a1cab60e5a5b")
+	)
+	(junction
+		(at 31.75 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f17c751-4174-4583-8a07-d2cb7a72cfbe")
 	)
 	(junction
 		(at 49.53 88.9)
@@ -4138,6 +4245,12 @@
 		(uuid "9d221031-48c7-4b36-ab09-12b63e03c9a3")
 	)
 	(junction
+		(at 26.67 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9de25f89-fedc-4a65-b7d0-90970754e087")
+	)
+	(junction
 		(at 163.83 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4252,6 +4365,18 @@
 		(uuid "e7a8e216-8b82-4131-9a4c-b03d5b5e75ab")
 	)
 	(junction
+		(at 29.21 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec467d81-a01a-495c-b14b-0be6aad7768c")
+	)
+	(junction
+		(at 29.21 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeb0708b-68b8-44ee-b53d-60d3dea3f765")
+	)
+	(junction
 		(at 55.88 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4307,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 30.48) (xy 34.29 30.48)
+			(xy 31.75 48.26) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4417,6 +4542,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 48.26) (xy 26.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba03605-0499-42a5-b8aa-751a3445255f")
+	)
+	(wire
+		(pts
 			(xy 110.49 35.56) (xy 118.11 35.56)
 		)
 		(stroke
@@ -4474,6 +4609,16 @@
 			(type default)
 		)
 		(uuid "24e4db42-9ce7-4db7-b10d-949fb8fd2e35")
+	)
+	(wire
+		(pts
+			(xy 24.13 27.94) (xy 19.05 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251b46e1-fb1b-48eb-acd1-3f5bbe15911c")
 	)
 	(wire
 		(pts
@@ -5487,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 30.48) (xy 34.29 34.29)
+			(xy 24.13 48.26) (xy 24.13 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5584,6 +5729,16 @@
 			(type default)
 		)
 		(uuid "c8c0b08d-418a-4f84-999e-6c05a4447ac1")
+	)
+	(wire
+		(pts
+			(xy 19.05 48.26) (xy 24.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb24d26e-47a5-4e4e-8d87-be486c67b5ee")
 	)
 	(wire
 		(pts
@@ -5707,13 +5862,23 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 27.94) (xy 41.91 27.94)
+			(xy 26.67 27.94) (xy 29.21 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dbff3089-9410-4ce1-ba5f-ea31f92f94bf")
+	)
+	(wire
+		(pts
+			(xy 31.75 27.94) (xy 41.91 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de574789-858a-4d78-91cc-7834d1d73526")
 	)
 	(wire
 		(pts
@@ -5774,6 +5939,16 @@
 			(type default)
 		)
 		(uuid "e5a40093-01c1-4ebf-9681-a18e63520872")
+	)
+	(wire
+		(pts
+			(xy 29.21 27.94) (xy 31.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e750cb57-b45e-4741-92c5-f64dff7fff2e")
 	)
 	(wire
 		(pts
@@ -5857,6 +6032,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 48.26) (xy 24.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39db1c1-6707-4091-816e-7408ae20cc55")
+	)
+	(wire
+		(pts
 			(xy 63.5 165.1) (xy 72.39 165.1)
 		)
 		(stroke
@@ -5894,6 +6079,16 @@
 			(type default)
 		)
 		(uuid "fb9c03a4-b972-4b14-abaa-34b993fbf7ed")
+	)
+	(wire
+		(pts
+			(xy 19.05 27.94) (xy 19.05 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee8340f-5465-47eb-a8d6-724b0e424d50")
 	)
 	(wire
 		(pts
@@ -7953,7 +8148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 148.59 106.68 0)
 			(effects
 				(font
@@ -8225,7 +8420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 112.0648 0)
 			(effects
 				(font
@@ -8293,7 +8488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:7427934"
 			(at 238.76 53.848 90)
 			(effects
 				(font
@@ -8505,7 +8700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.73 106.68 0)
 			(effects
 				(font
@@ -9047,7 +9242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 96.52 106.68 0)
 			(effects
 				(font
@@ -9117,7 +9312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.102 31.75 90)
 			(effects
 				(font
@@ -9187,7 +9382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 186.182 63.5 90)
 			(effects
 				(font
@@ -9254,7 +9449,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 267.208 152.4 90)
 			(effects
 				(font
@@ -9458,7 +9653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 106.68 0)
 			(effects
 				(font
@@ -9528,7 +9723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 188.9252 59.69 0)
 			(effects
 				(font
@@ -9598,7 +9793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.332 53.34 90)
 			(effects
 				(font
@@ -9930,7 +10125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 50.4952 96.52 0)
 			(effects
 				(font
@@ -10134,7 +10329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.15 91.44 0)
 			(effects
 				(font
@@ -10203,7 +10398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.1052 57.15 0)
 			(effects
 				(font
@@ -10342,7 +10537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 20.0152 96.52 0)
 			(effects
 				(font
@@ -10807,7 +11002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 42.8752 96.52 0)
 			(effects
 				(font
@@ -10943,7 +11138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 47.752 115.57 90)
 			(effects
 				(font
@@ -11012,7 +11207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 156.21 106.68 0)
 			(effects
 				(font
@@ -11210,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 109.22 98.0948 0)
 			(effects
 				(font
@@ -11411,7 +11606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 202.692 148.59 90)
 			(effects
 				(font
@@ -11547,7 +11742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.3952 59.69 0)
 			(effects
 				(font
@@ -11617,7 +11812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 254.762 134.62 90)
 			(effects
 				(font
@@ -11753,7 +11948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 57.912 119.38 90)
 			(effects
 				(font
@@ -12019,7 +12214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:TPS259830ONRGER"
 			(at 97.79 34.29 0)
 			(effects
 				(font
@@ -12370,7 +12565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 250.952 36.83 90)
 			(effects
 				(font
@@ -12638,7 +12833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.282 148.59 90)
 			(effects
 				(font
@@ -12706,7 +12901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:7427934"
 			(at 173.99 53.848 90)
 			(effects
 				(font
@@ -12773,7 +12968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 105.918 90)
 			(effects
 				(font
@@ -12948,7 +13143,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 34.29 0)
+		(at 24.13 52.07 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12957,7 +13153,7 @@
 		(fields_autoplaced yes)
 		(uuid "89f92230-1960-45d9-b80f-e06c7aa69628")
 		(property "Reference" "#PWR0167"
-			(at 34.29 40.64 0)
+			(at 24.13 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12966,7 +13162,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 39.37 0)
+			(at 24.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12974,7 +13170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 34.29 0)
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12983,7 +13179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 34.29 0)
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,7 +13188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 34.29 0)
+			(at 24.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13040,7 +13236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 113.792 27.94 90)
 			(effects
 				(font
@@ -13309,7 +13505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 132.842 40.64 90)
 			(effects
 				(font
@@ -13378,7 +13574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.102 43.18 90)
 			(effects
 				(font
@@ -13581,7 +13777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.6952 33.02 0)
 			(effects
 				(font
@@ -13961,7 +14157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 106.68 87.9348 0)
 			(effects
 				(font
@@ -14096,7 +14292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.102 52.07 90)
 			(effects
 				(font
@@ -14232,7 +14428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.832 148.59 90)
 			(effects
 				(font
@@ -14442,7 +14638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 96.52 0)
 			(effects
 				(font
@@ -14924,7 +15120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 106.68 0)
 			(effects
 				(font
@@ -14994,7 +15190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 250.952 63.5 90)
 			(effects
 				(font
@@ -15111,33 +15307,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 21.59 30.48 180)
+		(lib_id "SamacSys_Parts:45586-0005")
+		(at 24.13 27.94 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c264a53f-a186-4368-8217-ddcd8162636d")
 		(property "Reference" "J11"
-			(at 22.225 22.86 0)
+			(at 0.508 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 22.225 25.4 0)
+		(property "Value" "8-pin ATX connector"
+			(at 0.508 38.608 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
-			(at 21.59 30.48 0)
+		(property "Footprint" "SamacSys_Parts:45586-000Y"
+			(at 119.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/455860005_sd.pdf"
+			(at 219.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mini-Fit Jr. Header, Dual Row, Right-Angle, Third Generation Polarization Type for PCIe Applications, 8 Circuits, UL 94V-0, 0.76&micro;m Select Gold (Au) Plating, Black"
+			(at 24.13 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15145,21 +15363,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 21.59 30.48 0)
+		(property "Height" "10"
+			(at 419.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 21.59 30.48 0)
+		(property "Mouser Part Number" "538-45586-0005"
+			(at 519.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/45586-0005?qs=55YtniHzbhC5SOM%252Bi9XsaA%3D%3D"
+			(at 619.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 719.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "45586-0005"
+			(at 819.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -15168,6 +15418,24 @@
 		)
 		(pin "2"
 			(uuid "f5251f85-76ab-4e3e-ae1f-627dfe6ffa09")
+		)
+		(pin "5"
+			(uuid "e0ca48a1-5a5a-4e85-a2da-652120ce5afd")
+		)
+		(pin "3"
+			(uuid "bd910198-1b0f-4641-b0ce-c77dcf52509a")
+		)
+		(pin "6"
+			(uuid "ba0d754b-3051-48e1-a687-38653b6e32f0")
+		)
+		(pin "7"
+			(uuid "a9cc109d-c73a-45df-8310-6d167906f14a")
+		)
+		(pin "8"
+			(uuid "62cd33fd-588f-4e25-8e6b-755a99eab829")
+		)
+		(pin "4"
+			(uuid "8bfb1d6f-a269-447c-aa20-4eaf57f1b8ea")
 		)
 		(instances
 			(project ""
@@ -15346,7 +15614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.3952 33.02 0)
 			(effects
 				(font
@@ -15413,7 +15681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 256.54 149.098 90)
 			(effects
 				(font
@@ -15548,7 +15816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 201.6252 59.69 0)
 			(effects
 				(font
@@ -15617,7 +15885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 63.1952 106.68 0)
 			(effects
 				(font
@@ -15752,7 +16020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 35.2552 96.52 0)
 			(effects
 				(font
@@ -15819,7 +16087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -15952,7 +16220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:7427934"
 			(at 238.76 27.178 90)
 			(effects
 				(font
@@ -16020,7 +16288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:MPS-QFN-21_3x4mm"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -16192,7 +16460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 135.5852 55.88 0)
 			(effects
 				(font
@@ -16261,7 +16529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.9752 46.99 0)
 			(effects
 				(font
@@ -16331,7 +16599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 335.28 147.32 0)
 			(effects
 				(font
@@ -16430,7 +16698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 70.8152 46.99 0)
 			(effects
 				(font
@@ -16499,7 +16767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.6352 96.52 0)
 			(effects
 				(font
@@ -16568,7 +16836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.35 106.68 0)
 			(effects
 				(font
@@ -16704,7 +16972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 89.662 53.34 90)
 			(effects
 				(font
@@ -16774,7 +17042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.6952 59.69 0)
 			(effects
 				(font
@@ -16843,7 +17111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 123.19 0)
 			(effects
 				(font

@@ -8955,7 +8955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical"
 			(at 26.67 138.43 0)
 			(effects
 				(font
@@ -10614,7 +10614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VQFN100_KDX_MCH"
+		(property "Footprint" "SamacSys_Parts:QFN40P1200X1200X90-101N-D"
 			(at 60.96 25.4 0)
 			(effects
 				(font

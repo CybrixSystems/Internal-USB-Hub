@@ -26041,7 +26041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A"
+		(property "Footprint" "SamacSys_Parts:USB420003A"
 			(at 374.65 48.26 0)
 			(effects
 				(font
