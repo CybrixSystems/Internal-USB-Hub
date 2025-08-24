@@ -3747,16 +3747,6 @@
 		)
 		(uuid "333c85ea-e7e6-456b-8028-1471be3a3083")
 	)
-	(text "0x2D"
-		(exclude_from_sim no)
-		(at -93.726 77.978 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3e74b754-df2d-40a1-82e4-4d606ffbec99")
-	)
 	(text "VBUS Detection & ESD Protection"
 		(exclude_from_sim no)
 		(at 353.568 211.582 0)
@@ -4277,15 +4267,6 @@
 		(uuid "33c3e039-7322-4f30-b0e4-20507e1bd6f1")
 	)
 	(bus_entry
-		(at -53.34 80.01)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d15e729-b733-439a-9d79-e72a31b24541")
-	)
-	(bus_entry
 		(at 191.77 26.67)
 		(size -2.54 2.54)
 		(stroke
@@ -4311,15 +4292,6 @@
 			(type default)
 		)
 		(uuid "449df21b-b4c0-4934-9551-9bd4b30312d9")
-	)
-	(bus_entry
-		(at -53.34 74.93)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498bbf67-c1c7-441a-b562-d7befc1f5205")
 	)
 	(bus_entry
 		(at 191.77 138.43)
@@ -4545,15 +4517,6 @@
 			(type default)
 		)
 		(uuid "a7e831aa-25af-4c76-b1ba-505845e8b062")
-	)
-	(bus_entry
-		(at -50.8 77.47)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b045a7-2ae5-4d20-af67-6573b7166c43")
 	)
 	(bus_entry
 		(at 41.91 34.29)
@@ -4797,15 +4760,6 @@
 			(type default)
 		)
 		(uuid "ec5537a6-d79c-42c3-97ba-e4ffd91dc4b0")
-	)
-	(bus_entry
-		(at -50.8 82.55)
-		(size -2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0114f7-2e00-4610-a2fe-799eb652eee2")
 	)
 	(bus_entry
 		(at 191.77 113.03)
@@ -5602,16 +5556,6 @@
 	)
 	(wire
 		(pts
-			(xy -50.8 77.47) (xy -29.21 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66f62414-78aa-4ab8-9172-07a910a159f4")
-	)
-	(wire
-		(pts
 			(xy 44.45 41.91) (xy 60.96 41.91)
 		)
 		(stroke
@@ -5922,16 +5866,6 @@
 	)
 	(wire
 		(pts
-			(xy -50.8 82.55) (xy -29.21 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a314289-e94e-4a77-9b86-62c0716912f2")
-	)
-	(wire
-		(pts
 			(xy 234.95 40.64) (xy 251.46 40.64)
 		)
 		(stroke
@@ -6000,16 +5934,6 @@
 		)
 		(uuid "9ac7a30c-7e9e-48f1-959c-7b6a15fc1cc9")
 	)
-	(bus
-		(pts
-			(xy -71.12 80.01) (xy -53.34 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d02b720-2500-49c8-95d3-b00855a8842b")
-	)
 	(wire
 		(pts
 			(xy 280.67 254) (xy 280.67 256.54)
@@ -6019,16 +5943,6 @@
 			(type default)
 		)
 		(uuid "9d3edc9d-667e-4bf7-b127-f8014e149dd7")
-	)
-	(bus
-		(pts
-			(xy -71.12 74.93) (xy -53.34 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1b6726f-e126-4b13-b9ef-aeee5af00f1d")
 	)
 	(wire
 		(pts
@@ -6910,16 +6824,6 @@
 		)
 		(uuid "13b8ba24-f600-4ebb-a1f1-e8bce3d039d5")
 	)
-	(label "SMBus_MSTR{I2C}"
-		(at -71.12 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1586ad50-a816-4956-a5eb-a8c80b62355f")
-	)
 	(label "USB3_DN5.TX1-"
 		(at 172.72 137.16 0)
 		(effects
@@ -7120,16 +7024,6 @@
 		)
 		(uuid "7661e698-8fea-4480-b5c2-9b29b593bd51")
 	)
-	(label "SMBus_MSTR.SDA"
-		(at -50.8 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78d0c3a5-bb57-4306-8663-3c9145697e38")
-	)
 	(label "USB3_DN3.RX1+"
 		(at 172.72 90.17 0)
 		(effects
@@ -7150,16 +7044,6 @@
 		)
 		(uuid "84fdc7f3-e05f-4c27-837f-d46ca288acdf")
 	)
-	(label "SMBus_MSTR.SCL"
-		(at -50.8 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88b38e7b-2f0f-4175-ac15-2c48865effab")
-	)
 	(label "CFG_STRAP1"
 		(at 30.48 259.08 0)
 		(effects
@@ -7169,16 +7053,6 @@
 			(justify left bottom)
 		)
 		(uuid "89f1b59b-9d53-4360-81c2-7002c67fec80")
-	)
-	(label "SMBus_MSTR{I2C}"
-		(at -71.12 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bb3348b-5252-4c5d-9df3-5a8d9bfa45bb")
 	)
 	(label "USB3_UP.RX1+"
 		(at 60.96 41.91 180)
@@ -7545,17 +7419,6 @@
 			(justify left)
 		)
 		(uuid "8034c614-72da-4d58-af3a-b373e5d3b63c")
-	)
-	(hierarchical_label "SMBus_MSTR"
-		(shape output)
-		(at -71.12 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "950379f2-a4a9-41bf-99ec-6d1f6e0ff055")
 	)
 	(hierarchical_label "PRT_CTL3"
 		(shape output)
