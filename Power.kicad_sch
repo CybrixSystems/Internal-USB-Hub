@@ -8361,7 +8361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 190.5 156.21 0)
 			(effects
 				(font
@@ -8575,7 +8575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 153.67 31.75 0)
 			(effects
 				(font
@@ -12291,7 +12291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EasyEDA:X2SON-2_L0.6-W0.3-P0.35"
+		(property "Footprint" "Diode_SMD:D_SMC"
 			(at 34.29 33.02 0)
 			(effects
 				(font
@@ -13753,7 +13753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 234.95 156.21 0)
 			(effects
 				(font
@@ -14366,7 +14366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 266.7 139.7 0)
 			(effects
 				(font
@@ -14713,7 +14713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 213.36 156.21 0)
 			(effects
 				(font
@@ -16322,7 +16322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N2222"
+		(property "Value" "MMBT2222A"
 			(at 276.86 148.5899 0)
 			(effects
 				(font
