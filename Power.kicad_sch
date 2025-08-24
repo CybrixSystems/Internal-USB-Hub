@@ -7687,7 +7687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 128.27 165.1 0)
 			(effects
 				(font
@@ -7753,7 +7753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 274.32 93.98 0)
 			(effects
 				(font
@@ -15251,7 +15251,7 @@
 				)
 			)
 		)
-		(property "Value" "SiA462DJ"
+		(property "Value" "SiRA80DP"
 			(at 134.62 24.13 90)
 			(effects
 				(font
@@ -15259,7 +15259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+		(property "Footprint" "Package_SO:PowerPAK_SO-8L_Single"
 			(at 129.54 25.4 0)
 			(effects
 				(font
