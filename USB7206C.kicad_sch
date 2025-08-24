@@ -3739,7 +3739,7 @@
 	)
 	(text "SPI Address\n0x3FFFA for DFU\n0x0000 for the external SPI ROM"
 		(exclude_from_sim no)
-		(at 7.874 138.684 0)
+		(at 30.226 150.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,7 +5306,7 @@
 	)
 	(bus
 		(pts
-			(xy 19.05 25.4) (xy 41.91 25.4)
+			(xy 24.13 25.4) (xy 41.91 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +5586,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 261.62) (xy 97.79 261.62)
+			(xy 76.2 261.62) (xy 92.71 261.62)
 		)
 		(stroke
 			(width 0)
@@ -5626,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 259.08) (xy 97.79 259.08)
+			(xy 76.2 259.08) (xy 92.71 259.08)
 		)
 		(stroke
 			(width 0)
@@ -6915,7 +6915,7 @@
 		(uuid "3d13eb59-4a2d-46a4-816a-c086a1412c25")
 	)
 	(label "CFG_BC_EN"
-		(at 81.28 261.62 0)
+		(at 76.2 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7145,7 +7145,7 @@
 		(uuid "b406758c-186d-49da-b5c8-1b7bb623193e")
 	)
 	(label "CFG_NON_REM"
-		(at 81.28 259.08 0)
+		(at 76.2 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7275,7 +7275,7 @@
 		(uuid "dc3c16e2-002f-4c0c-b913-52d7baf2998d")
 	)
 	(label "USB3_UP{USB3}"
-		(at 34.29 25.4 180)
+		(at 39.37 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7433,7 +7433,7 @@
 	)
 	(hierarchical_label "USB_UP"
 		(shape input)
-		(at 19.05 25.4 180)
+		(at 24.13 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
