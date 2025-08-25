@@ -441,6 +441,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -669,15 +670,11 @@
       "Power"
     ],
     [
-      "7fe2d266-53fd-4db0-a3a6-d5a75d461820",
-      "USB-C_UP"
-    ],
-    [
-      "e4bf2cb2-ae79-4a20-a894-cdf581aefbac",
+      "c482699f-16ee-4a02-bb28-667e2389d2fc",
       "USB-C_UP1"
     ],
     [
-      "3d560599-5a8a-4cf0-a02e-a2ff6ae66be7",
+      "df13e2b1-cca0-408c-9316-50e440f0b300",
       "USB-E"
     ]
   ],
