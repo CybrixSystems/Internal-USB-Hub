@@ -3169,23 +3169,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 5.715 1.905 0)
+			(property "Reference" "U21"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SiA462DJ"
-				(at 9.525 0 0)
+			(property "Value" "SiRA80DP"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+			(property "Footprint" "Package_SO:PowerPAK_SO-8L_Single"
 				(at 5.08 -5.08 0)
 				(effects
 					(font
@@ -3410,7 +3410,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3422,6 +3422,78 @@
 					(at 2.54 5.08 270)
 					(length 2.54)
 					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3446,7 +3518,25 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11939,7 +12029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "8.2k"
 			(at 62.23 120.6499 0)
 			(effects
 				(font
@@ -13533,10 +13623,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f78d4804-763f-4257-845a-31616c498ad4")
+			(uuid "f78d4804-763f-4257-845a-31616c498ad5")
 		)
 		(pin "1"
-			(uuid "8f1a79d3-1757-4eda-83c9-c0b1ee921f1e")
+			(uuid "8f1a79d3-1757-4eda-83c9-c0b1ee921f1f")
 		)
 		(instances
 			(project ""
@@ -13602,10 +13692,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1efabdbd-7004-4e6b-95a4-68ac1f1cd989")
+			(uuid "1efabdbd-7004-4e6b-95a4-68ac1f1cd98a")
 		)
 		(pin "2"
-			(uuid "4d1bd135-299d-4dc1-91ab-c24b0b84042c")
+			(uuid "4d1bd135-299d-4dc1-91ab-c24b0b84042d")
 		)
 		(instances
 			(project ""
@@ -15297,6 +15387,21 @@
 		(pin "4"
 			(uuid "31f1ae63-281e-4c81-8d9e-29a89def451f")
 		)
+		(pin "7"
+			(uuid "5b5a07b7-9471-4768-8785-a0cf146b6a65")
+		)
+		(pin "6"
+			(uuid "879f8a8a-960e-48fc-9e92-f8c1354548b9")
+		)
+		(pin "5"
+			(uuid "8b07f2a7-1f39-4045-a6e6-9c41cc19b7a8")
+		)
+		(pin "8"
+			(uuid "cc92a840-e7bf-45ad-a52c-09d25acde550")
+		)
+		(pin "2"
+			(uuid "9f5c1f9b-dcc0-431b-af77-c2a2649daac7")
+		)
 		(instances
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/d2423802-44ec-4cde-beeb-19921a82a533"
@@ -15876,7 +15981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 62.992 105.41 0)
 			(effects
 				(font
@@ -16726,10 +16831,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8e7e6fbe-8052-42e6-967f-205664a0610f")
+			(uuid "8e7e6fbe-8052-42e6-967f-205664a06110")
 		)
 		(pin "1"
-			(uuid "3a9836c5-d7c5-4661-ac0b-119ec57cc3f9")
+			(uuid "3a9836c5-d7c5-4661-ac0b-119ec57cc3fa")
 		)
 		(instances
 			(project ""
@@ -17000,10 +17105,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "f78d4804-763f-4257-845a-31616c498ad4")
+			(uuid "f78d4804-763f-4257-845a-31616c498ad6")
 		)
 		(pin "1"
-			(uuid "8f1a79d3-1757-4eda-83c9-c0b1ee921f1e")
+			(uuid "8f1a79d3-1757-4eda-83c9-c0b1ee921f20")
 		)
 		(instances
 			(project ""
