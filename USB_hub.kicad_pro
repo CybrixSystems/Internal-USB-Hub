@@ -579,7 +579,13 @@
       "/USB-C2/USB-C2.TX2-": [
         "USB_SS"
       ],
+      "/USB-C2/USB3_IN.RX1+": [
+        "USB_SS"
+      ],
       "/USB-C2/USB3_IN.RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB3_IN.TX1+": [
         "USB_SS"
       ],
       "/USB-C2/USB3_IN.TX1-": [
