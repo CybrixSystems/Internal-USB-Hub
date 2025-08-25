@@ -5099,7 +5099,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 35.56) (xy 215.9 35.56)
+			(xy 204.47 35.56) (xy 215.9 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6589,7 +6589,7 @@
 	)
 	(hierarchical_label "USB-C_UP"
 		(shape output)
-		(at 203.2 35.56 180)
+		(at 204.47 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
