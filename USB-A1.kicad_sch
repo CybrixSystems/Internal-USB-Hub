@@ -1076,142 +1076,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:ESD122DMXR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD122DMXR"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:X2SON-3_L1.0-W0.6-L"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C544474"
-				(at 0 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD122DMXR_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 2.54 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "IO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "IO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:ESD441DPLR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2892,38 +2756,6 @@
 		(color 0 0 0 0)
 		(uuid "ee93e2cf-9f02-4226-b54b-e1362f937ea3")
 	)
-	(no_connect
-		(at 99.06 175.26)
-		(uuid "00bc3811-3411-49b6-8e46-37b06a658258")
-	)
-	(no_connect
-		(at 99.06 137.16)
-		(uuid "03f02691-3228-4e84-aabb-aee72f87eeb8")
-	)
-	(no_connect
-		(at 99.06 142.24)
-		(uuid "17cf1be8-9bcf-474d-8c03-5bf1648e9c51")
-	)
-	(no_connect
-		(at 99.06 162.56)
-		(uuid "24bd1a21-5d45-4fe3-9ab7-8857fbc4a588")
-	)
-	(no_connect
-		(at 99.06 124.46)
-		(uuid "55746fc0-b543-4c62-a5e7-6920bf6b17cf")
-	)
-	(no_connect
-		(at 99.06 167.64)
-		(uuid "5d56ed9b-751a-48a4-83ee-b3608337d884")
-	)
-	(no_connect
-		(at 99.06 129.54)
-		(uuid "849945a0-1a11-40d7-a318-93c847fe28da")
-	)
-	(no_connect
-		(at 99.06 180.34)
-		(uuid "9500d7a0-1d1b-43df-9b69-b1ac5e82f6cf")
-	)
 	(bus_entry
 		(at 233.68 53.34)
 		(size -2.54 -2.54)
@@ -3051,7 +2883,7 @@
 		(uuid "4ea8c30f-d2ab-4e6c-a7ce-4fab0ed9f01d")
 	)
 	(bus_entry
-		(at 49.53 161.29)
+		(at 49.53 175.26)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3069,7 +2901,7 @@
 		(uuid "58e929aa-51a2-46c3-86fc-0d581a58dd84")
 	)
 	(bus_entry
-		(at 46.99 120.65)
+		(at 46.99 160.02)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3159,7 +2991,7 @@
 		(uuid "aeb72add-9952-432f-99c6-c64341b796b6")
 	)
 	(bus_entry
-		(at 49.53 123.19)
+		(at 49.53 162.56)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3186,7 +3018,7 @@
 		(uuid "d91852f8-e557-4ff7-b273-c3b0eda55b5d")
 	)
 	(bus_entry
-		(at 49.53 181.61)
+		(at 49.53 180.34)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3204,7 +3036,7 @@
 		(uuid "e6a8aa99-5ff5-4ff8-8892-15bed7d44a26")
 	)
 	(bus_entry
-		(at 49.53 143.51)
+		(at 49.53 167.64)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -3213,7 +3045,7 @@
 		(uuid "eb23971d-2fec-480f-b7b1-5edabe6a3a4a")
 	)
 	(bus_entry
-		(at 46.99 158.75)
+		(at 46.99 172.72)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3222,7 +3054,7 @@
 		(uuid "ec66d84f-2edb-4c2e-bf0c-fcf1e2339986")
 	)
 	(bus_entry
-		(at 46.99 140.97)
+		(at 46.99 165.1)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3240,7 +3072,7 @@
 		(uuid "f89b9578-824d-4679-aeac-2d0c50a68507")
 	)
 	(bus_entry
-		(at 46.99 179.07)
+		(at 46.99 177.8)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -3290,7 +3122,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 115.57) (xy 40.64 115.57)
+			(xy 46.99 154.94) (xy 40.64 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3570,7 +3402,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 153.67) (xy 46.99 158.75)
+			(xy 46.99 168.91) (xy 46.99 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3850,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 181.61) (xy 62.23 181.61)
+			(xy 49.53 180.34) (xy 62.23 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4070,7 +3902,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 158.75) (xy 46.99 179.07)
+			(xy 46.99 172.72) (xy 46.99 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4100,7 +3932,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 115.57) (xy 46.99 120.65)
+			(xy 46.99 154.94) (xy 46.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4200,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 143.51) (xy 62.23 143.51)
+			(xy 49.53 167.64) (xy 62.23 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4270,7 +4102,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 153.67) (xy 40.64 153.67)
+			(xy 46.99 168.91) (xy 40.64 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4440,7 +4272,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 123.19) (xy 62.23 123.19)
+			(xy 49.53 162.56) (xy 62.23 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4480,7 +4312,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 161.29) (xy 62.23 161.29)
+			(xy 49.53 175.26) (xy 62.23 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4490,7 +4322,7 @@
 	)
 	(bus
 		(pts
-			(xy 46.99 120.65) (xy 46.99 140.97)
+			(xy 46.99 160.02) (xy 46.99 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4619,7 +4451,7 @@
 		(uuid "678273a5-53d6-4b7c-8a39-1436b4ee7c51")
 	)
 	(label "USB-A2.D-"
-		(at 49.53 161.29 0)
+		(at 49.53 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4649,7 +4481,7 @@
 		(uuid "747c025e-23e5-4f2d-a1ee-ad034f48a190")
 	)
 	(label "USB-A2.D+"
-		(at 49.53 181.61 0)
+		(at 49.53 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4669,7 +4501,7 @@
 		(uuid "903cf9c3-3f13-4071-ab4f-007232bd15f2")
 	)
 	(label "USB-A2{USB3}"
-		(at 40.64 153.67 0)
+		(at 40.64 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4709,7 +4541,7 @@
 		(uuid "9e9afe16-dfbe-4fd5-90c7-5f6ae15d95ef")
 	)
 	(label "USB-A1.D-"
-		(at 49.53 143.51 0)
+		(at 49.53 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4729,7 +4561,7 @@
 		(uuid "a30f34a9-096b-44cd-b47c-17ca86c666e3")
 	)
 	(label "USB-A1{USB3}"
-		(at 40.64 115.57 0)
+		(at 40.64 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4789,7 +4621,7 @@
 		(uuid "ca780d5c-ac6a-48c2-9f96-6559ead46d40")
 	)
 	(label "USB-A1.D+"
-		(at 49.53 123.19 0)
+		(at 49.53 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4861,7 +4693,7 @@
 	)
 	(hierarchical_label "USB-A1"
 		(shape input)
-		(at 40.64 115.57 180)
+		(at 40.64 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4872,7 +4704,7 @@
 	)
 	(hierarchical_label "USB-A2"
 		(shape input)
-		(at 40.64 153.67 180)
+		(at 40.64 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4891,6 +4723,52 @@
 			(justify right)
 		)
 		(uuid "d3ea9264-7294-40c9-9aa7-c414846204cc")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 83.9787 116.84) (xy 83.9787 180.34) (xy 98.9013 180.34) (xy 98.9013 116.84)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid fb02f160-7b1c-4922-8d57-0b5e46e08b28)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 88.9 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dca27108-d820-436d-855f-2945d1258c06")
+		(property "Netclass" "USB_SS"
+			(at 89.5985 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -26.67 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -5187,17 +5065,44 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 69.85 133.35 0)
+		(lib_id "Snapeda:TPD4E02B04DQA")
+		(at 69.85 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "174da7d3-3d71-414a-b37a-d4fc35a66e08")
-		(property "Reference" "#PWR0155"
-			(at 69.85 139.7 0)
+		(uuid "0ebf8d83-7551-4da3-9719-6ff8e000f094")
+		(property "Reference" "U32"
+			(at 64.77 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD4E02B04DQA"
+			(at 64.77 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:USON-10_2.5x1.0mm_P0.5mm"
+			(at 77.47 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf"
+			(at 72.39 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,16 +5110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 133.35 0)
+		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 69.85 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,31 +5119,40 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "4237ec4e-2dd1-4169-824e-ae4b2279bc8c")
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "228c9e27-f6fc-4187-a9ba-fcd991d2a9ae")
+		)
+		(pin "9"
+			(uuid "fc8326de-4a67-452d-b520-061eea99a86e")
+		)
+		(pin "3"
+			(uuid "a58d463e-6728-4ec7-84fe-623b26592692")
 		)
 		(pin "1"
-			(uuid "3c0aa823-1ff6-4718-9560-3387815792f6")
+			(uuid "231bd9c0-6548-4c28-b7c2-696a25097187")
+		)
+		(pin "10"
+			(uuid "2403f266-7db5-4b79-95f0-be976e0d641c")
+		)
+		(pin "4"
+			(uuid "a1d4c382-6699-476e-ab4b-7954fd247cb0")
+		)
+		(pin "7"
+			(uuid "21dd2d0c-85d5-4b3c-bf22-34a9716b538f")
+		)
+		(pin "6"
+			(uuid "117004a9-8608-4651-887b-1c0dc8b3f253")
+		)
+		(pin "8"
+			(uuid "4726b82b-ebfc-4587-9db9-b9097a331e91")
 		)
 		(instances
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
-					(reference "#PWR0155")
+					(reference "U32")
 					(unit 1)
 				)
 			)
@@ -5379,6 +5285,72 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
 					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24c52398-d7f4-4e76-9a1a-08cabe754202")
+		(property "Reference" "#PWR0155"
+			(at 72.39 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de57a1c2-9f95-463f-86a2-98cee221e949")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -5592,87 +5564,6 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:ESD122DMXR")
-		(at 62.23 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33ebfcd9-4d8b-4975-83c5-4d0b3dffe7ec")
-		(property "Reference" "D11"
-			(at 67.564 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD122DMXR"
-			(at 67.564 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:X2SON-3_L1.0-W0.6-L"
-			(at 62.23 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C544474"
-			(at 62.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "590238e4-fcb6-4289-b230-e2bd87036ef9")
-		)
-		(pin "1"
-			(uuid "e727231a-ad91-47b8-b632-bb862c870bcf")
-		)
-		(pin "3"
-			(uuid "b072095e-1c5f-4892-a578-62e13e12acda")
-		)
-		(instances
-			(project "USB_hub"
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -7571,7 +7462,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:ESD441DPLR")
-		(at 27.94 168.91 270)
+		(at 53.34 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7580,7 +7471,7 @@
 		(fields_autoplaced yes)
 		(uuid "c267aed8-093a-4b76-a85f-e02a2ca9ebfa")
 		(property "Reference" "D10"
-			(at 31.75 167.0049 90)
+			(at 57.15 127.6349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,7 +7480,7 @@
 			)
 		)
 		(property "Value" "ESD441DPLR"
-			(at 31.75 169.5449 90)
+			(at 57.15 130.1749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7489,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:X2SON-2_L0.6-W0.3-P0.35"
-			(at 20.32 168.91 0)
+			(at 45.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 168.91 0)
+			(at 53.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7507,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 168.91 0)
+			(at 53.34 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7516,7 @@
 			)
 		)
 		(property "LCSC Part" "C22427765"
-			(at 17.78 168.91 0)
+			(at 43.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +7541,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 27.94 163.83 0)
+		(at 53.34 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7659,7 +7550,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7375921-be74-4609-90f9-811feac879ab")
 		(property "Reference" "#PWR0158"
-			(at 27.94 167.64 0)
+			(at 53.34 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7559,7 @@
 			)
 		)
 		(property "Value" "VBUS-A2"
-			(at 27.94 158.75 0)
+			(at 53.34 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +7567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 163.83 0)
+			(at 53.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 163.83 0)
+			(at 53.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 27.94 163.83 0)
+			(at 53.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7673,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 173.99 0)
+		(at 53.34 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7791,7 +7682,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4ad0d3f-5f9b-4cc2-b1e3-d0d981e6c99d")
 		(property "Reference" "#PWR0160"
-			(at 27.94 180.34 0)
+			(at 53.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7800,7 +7691,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 179.07 0)
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +7699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 173.99 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7817,7 +7708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 173.99 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7826,7 +7717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 173.99 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8067,153 +7958,6 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
 					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 69.85 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d71986c7-e015-4a6e-8b65-afb8f97fc28c")
-		(property "Reference" "#PWR0159"
-			(at 69.85 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 69.85 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3797226d-ee53-439b-83f6-946d743365a3")
-		)
-		(instances
-			(project "USB_hub"
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
-					(reference "#PWR0159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:ESD122DMXR")
-		(at 62.23 133.35 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d87c29e6-50b2-4a8b-acdf-9238d63e0d38")
-		(property "Reference" "D9"
-			(at 67.564 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD122DMXR"
-			(at 67.564 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:X2SON-3_L1.0-W0.6-L"
-			(at 62.23 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C544474"
-			(at 62.23 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d0a1859-ecb1-41ee-a7dc-622d6870dcb5")
-		)
-		(pin "1"
-			(uuid "09a91679-4df2-45a1-897c-e06719cb1ac2")
-		)
-		(pin "3"
-			(uuid "79a521e3-f7d0-4793-bb31-866d885e0cc1")
-		)
-		(instances
-			(project ""
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/10c83c9e-05bd-4fa1-b7e1-a721413825c3"
-					(reference "D9")
 					(unit 1)
 				)
 			)
