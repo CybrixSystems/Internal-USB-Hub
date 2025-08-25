@@ -6627,6 +6627,98 @@
 		)
 		(uuid "7374ab55-1066-447e-8aad-7586433ff440")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 48.26 80.01) (xy 48.26 97.79) (xy 66.04 97.79) (xy 66.04 80.01)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 0879c385-ac90-446e-8d0c-e7bb5822a515)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 128.27 58.42) (xy 128.27 85.09) (xy 165.1 85.09) (xy 165.1 58.42)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ef08dc6a-b898-4b48-96cf-4f4a2e5419eb)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 57.15 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1486be11-8377-4d04-a0bb-1d0f4c8969f4")
+		(property "Netclass" "USB_SS"
+			(at 57.8485 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -58.42 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 156.21 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8d7d79f-5856-4608-834b-badbd7b91baa")
+		(property "Netclass" "USB_SS"
+			(at 156.9085 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 40.64 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 52.07 172.72 0)

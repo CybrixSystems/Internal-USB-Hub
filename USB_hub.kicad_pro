@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -181,7 +187,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -208,7 +216,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -476,17 +489,217 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.77724,
+        "diff_pair_gap": 0.207264,
+        "diff_pair_width": 0.155448,
         "name": "USB_SS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(4, 0, 255, 0.722)"
+        "schematic_color": "rgba(4, 0, 255, 0.722)",
+        "track_width": 0.155448
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/SD-interface/USB-SD.RX1+": [
+        "USB_SS"
+      ],
+      "/SD-interface/USB-SD.RX1-": [
+        "USB_SS"
+      ],
+      "/SD-interface/USB-SD.TX1+": [
+        "USB_SS"
+      ],
+      "/SD-interface/USB-SD.TX1-": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.RX1+": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.RX2+": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.RX2-": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.TX1+": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.TX1-": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.TX2+": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB-C1.TX2-": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB3_IN.RX1+": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB3_IN.RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB3_IN.TX1+": [
+        "USB_SS"
+      ],
+      "/USB-C1/USB3_IN.TX1-": [
+        "USB_SS"
+      ],
+      "/USB-C2/MODE": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.RX1+": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.RX2+": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.RX2-": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.TX1+": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.TX1-": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.TX2+": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB-C2.TX2-": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB3_IN.RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C2/USB3_IN.TX1-": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.RX1+": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.RX2+": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.RX2-": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.TX1+": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.TX1-": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.TX2+": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB-C1.TX2-": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB3_IN.RX1+": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB3_IN.RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB3_IN.TX1+": [
+        "USB_SS"
+      ],
+      "/USB-C_UP1/USB3_IN.TX1-": [
+        "USB_SS"
+      ],
+      "Net-(C57-Pad2)": [
+        "USB_SS"
+      ],
+      "Net-(C58-Pad2)": [
+        "USB_SS"
+      ],
+      "Net-(C59-Pad2)": [
+        "USB_SS"
+      ],
+      "Net-(C60-Pad2)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CRX1n)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CRX1p)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CRX2n)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CRX2p)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CTX1n)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CTX1p)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CTX2n)": [
+        "USB_SS"
+      ],
+      "Net-(U14-CTX2p)": [
+        "USB_SS"
+      ],
+      "Net-(U14-SSRXn)": [
+        "USB_SS"
+      ],
+      "Net-(U14-SSRXp)": [
+        "USB_SS"
+      ],
+      "Net-(U14-SSTXn)": [
+        "USB_SS"
+      ],
+      "Net-(U14-SSTXp)": [
+        "USB_SS"
+      ],
+      "Net-(U15-TXN)": [
+        "USB_SS"
+      ],
+      "Net-(U15-TXP)": [
+        "USB_SS"
+      ],
+      "Net-(U26-TX1N)": [
+        "USB_SS"
+      ],
+      "Net-(U26-TX1P)": [
+        "USB_SS"
+      ],
+      "Net-(U26-TX2N)": [
+        "USB_SS"
+      ],
+      "Net-(U26-TX2P)": [
+        "USB_SS"
+      ],
+      "Net-(U3-TX1N)": [
+        "USB_SS"
+      ],
+      "Net-(U3-TX1P)": [
+        "USB_SS"
+      ],
+      "Net-(U3-TX2N)": [
+        "USB_SS"
+      ],
+      "Net-(U3-TX2P)": [
+        "USB_SS"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
