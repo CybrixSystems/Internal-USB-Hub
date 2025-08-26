@@ -5025,6 +5025,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C106794"
+			(at 106.68 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0bc5420e-79ba-4daf-bc71-2d5ca7fef9c1")
 		)
@@ -5111,6 +5120,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 69.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106794"
 			(at 69.85 172.72 0)
 			(effects
 				(font
@@ -5554,6 +5572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C22371298"
+			(at 189.23 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf6a756a-1e07-4762-8f87-17abb019f017")
 		)
@@ -5663,7 +5690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 108.9152 26.67 0)
 			(effects
 				(font
@@ -5682,6 +5709,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C721300"
 			(at 107.95 22.86 0)
 			(effects
 				(font
@@ -6186,6 +6222,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 123.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50e3f945-3bf0-475c-a5d0-c3eb142f70db")
 		)
@@ -6643,7 +6688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 116.5352 26.67 0)
 			(effects
 				(font
@@ -6662,6 +6707,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C721300"
 			(at 115.57 22.86 0)
 			(effects
 				(font
@@ -7111,7 +7165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 93.6752 26.67 0)
 			(effects
 				(font
@@ -7130,6 +7184,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C721300"
 			(at 92.71 22.86 0)
 			(effects
 				(font
@@ -7215,6 +7278,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C22371298"
+			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31597477-0316-4545-ba2a-20daaf458bc5")
 		)
@@ -7257,7 +7329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 101.2952 26.67 0)
 			(effects
 				(font
@@ -7276,6 +7348,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C721300"
 			(at 100.33 22.86 0)
 			(effects
 				(font
@@ -7916,6 +7997,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 106.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106794"
 			(at 106.68 132.08 0)
 			(effects
 				(font

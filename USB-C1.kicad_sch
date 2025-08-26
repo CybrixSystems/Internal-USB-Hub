@@ -7813,6 +7813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C22371298"
+			(at 129.54 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f8ac2a1-90ac-49ce-9ec7-4c719a645cd8")
 		)
@@ -8010,6 +8019,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 134.62 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f522935-48f1-4822-95db-0367cd0daa01")
 		)
@@ -8044,7 +8062,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 133.6675 129.54 0)
 			(effects
 				(font
@@ -8080,6 +8098,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C497918"
 			(at 132.08 133.35 0)
 			(effects
 				(font
@@ -8563,6 +8590,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 143.51 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "07ab75d9-1805-4249-8884-b85b35b5b993")
 		)
@@ -8805,7 +8841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 			(at 26.67 133.35 0)
 			(effects
 				(font
@@ -8824,6 +8860,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 26.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C338186"
 			(at 26.67 133.35 0)
 			(effects
 				(font
@@ -9323,6 +9368,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 36.83 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d58e53e-e4b9-440e-816f-ca03bedc4307")
 		)
@@ -9794,6 +9848,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C106794"
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "dbfed65e-726e-41e3-a590-15a96a0d5c91")
 		)
@@ -10216,6 +10279,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 181.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106794"
 			(at 181.61 138.43 0)
 			(effects
 				(font
@@ -10666,6 +10738,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 143.51 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e3915df-848e-4b11-b647-4435423689ce")
 		)
@@ -10908,7 +10989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 			(at 21.2852 34.29 0)
 			(effects
 				(font
@@ -10927,6 +11008,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 20.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C109392"
 			(at 20.32 30.48 0)
 			(effects
 				(font
@@ -11076,6 +11166,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 33.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b331764c-5e61-48ab-a61d-fe6be7d1013d")
 		)
@@ -11186,7 +11285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 			(at 91.44 133.35 0)
 			(effects
 				(font
@@ -11213,6 +11312,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C442816"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85780857-a2f1-43f3-882e-945603b92ce2")
 		)
@@ -11223,6 +11331,72 @@
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9818f2bb-7888-47ed-88c0-ae123f59f09a"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 200.66 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc890671-a737-4bd0-ac21-aaeff4155b5f")
+		(property "Reference" "#PWR032"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS_C1"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f50ae2aa-7f73-4f3a-894b-ae87f87ec2e4")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9818f2bb-7888-47ed-88c0-ae123f59f09a"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11275,6 +11449,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C165155"
 			(at 96.52 66.04 0)
 			(effects
 				(font
@@ -11768,6 +11951,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 134.62 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "de58257d-0222-4aef-8f8c-6ff27d62e84e")
 		)
@@ -11845,72 +12037,6 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9818f2bb-7888-47ed-88c0-ae123f59f09a"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 200.66 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8c2dcd8-618a-4282-abbb-43555dd825b9")
-		(property "Reference" "#PWR032"
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS-C1"
-			(at 200.66 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 200.66 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28afe787-f2c1-445d-98e2-444b5919bb19")
-		)
-		(instances
-			(project "USB_hub"
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9818f2bb-7888-47ed-88c0-ae123f59f09a"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12030,6 +12156,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 259.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106794"
 			(at 259.08 139.7 0)
 			(effects
 				(font

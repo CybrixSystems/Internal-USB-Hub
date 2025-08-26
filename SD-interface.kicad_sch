@@ -747,25 +747,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
+			(property "Reference" "Y2"
+				(at 11.43 6.4202 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
-				(at 3.175 3.175 0)
+			(property "Value" "25MHz +-0.03%"
+				(at 11.43 3.8802 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -784,6 +782,15 @@
 				)
 			)
 			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C179643"
 				(at 0 0 0)
 				(effects
 					(font
@@ -959,14 +966,14 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "3"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -977,14 +984,14 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 1.27)
-					(name "4"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3425,6 +3432,16 @@
 		)
 		(uuid "0af2cbe4-32b3-4d76-8a7c-ba1408afa3ce")
 	)
+	(wire
+		(pts
+			(xy 237.49 100.33) (xy 246.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116a43e9-8232-403e-9464-9ed03b785c92")
+	)
 	(bus
 		(pts
 			(xy 50.8 38.1) (xy 50.8 43.18)
@@ -3547,16 +3564,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 107.95) (xy 246.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ca83371-8d60-42f3-b03e-56e071886a1f")
-	)
-	(wire
-		(pts
 			(xy 46.99 107.95) (xy 46.99 106.68)
 		)
 		(stroke
@@ -3627,16 +3634,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 113.03) (xy 246.38 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eee6d34-2773-4af2-949f-4471fd5ff062")
-	)
-	(wire
-		(pts
 			(xy 74.93 73.66) (xy 74.93 76.2)
 		)
 		(stroke
@@ -3647,13 +3644,13 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 95.25) (xy 246.38 95.25)
+			(xy 237.49 107.95) (xy 246.38 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42aecf2b-92d6-401b-963d-fa1a56bc40d9")
+		(uuid "4542f4e5-dc59-4706-9adf-51c1f8140c83")
 	)
 	(wire
 		(pts
@@ -3817,6 +3814,26 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 147.32) (xy 246.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e312cb1-f0bd-4c96-a5ca-dba369c3ba6d")
+	)
+	(wire
+		(pts
+			(xy 237.49 113.03) (xy 246.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f45a4d1-0048-48a4-a6d4-c2cd703812f1")
+	)
+	(wire
+		(pts
 			(xy 232.41 62.23) (xy 232.41 59.69)
 		)
 		(stroke
@@ -3927,6 +3944,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 134.62) (xy 246.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e195be-9228-44b3-992d-f8c386e1fd00")
+	)
+	(wire
+		(pts
 			(xy 224.79 52.07) (xy 232.41 52.07)
 		)
 		(stroke
@@ -3957,6 +3984,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 129.54) (xy 246.38 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac9b462-670f-4c44-b625-5e080044a82c")
+	)
+	(wire
+		(pts
 			(xy 22.86 106.68) (xy 22.86 107.95)
 		)
 		(stroke
@@ -3964,16 +4001,6 @@
 			(type default)
 		)
 		(uuid "aad8b8ef-2578-463a-8836-8a739b2e1dd0")
-	)
-	(wire
-		(pts
-			(xy 237.49 147.32) (xy 246.38 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba61a0e-ac4c-485a-bc07-fa3aac79eff7")
 	)
 	(wire
 		(pts
@@ -4037,16 +4064,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 100.33) (xy 246.38 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a04061-2ff7-41a9-b376-178b7ce95f8f")
-	)
-	(wire
-		(pts
 			(xy 87.63 111.76) (xy 91.44 111.76)
 		)
 		(stroke
@@ -4054,6 +4071,16 @@
 			(type default)
 		)
 		(uuid "bb017457-2451-48ec-bc78-769150b9f2a7")
+	)
+	(wire
+		(pts
+			(xy 237.49 95.25) (xy 246.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed70219-e8da-4914-9c08-e0e4cbb56c6b")
 	)
 	(wire
 		(pts
@@ -4177,26 +4204,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 142.24) (xy 246.38 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7920d4-ee4c-4620-938f-907d1f8e70f8")
-	)
-	(wire
-		(pts
-			(xy 237.49 129.54) (xy 246.38 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df7a498b-054b-4228-9e0e-1b4ad2eb1cd1")
-	)
-	(wire
-		(pts
 			(xy 87.63 50.8) (xy 93.98 50.8)
 		)
 		(stroke
@@ -4204,6 +4211,16 @@
 			(type default)
 		)
 		(uuid "e09f6e45-891a-4f14-8e7e-bbabf3bfbbe5")
+	)
+	(wire
+		(pts
+			(xy 237.49 142.24) (xy 246.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea2b3c40-9016-4d13-86e3-1db93e1275e1")
 	)
 	(wire
 		(pts
@@ -4224,16 +4241,6 @@
 			(type default)
 		)
 		(uuid "eb675fb5-26d8-4e43-9319-6c65350e37b5")
-	)
-	(wire
-		(pts
-			(xy 237.49 134.62) (xy 246.38 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eee590eb-3ac5-4a83-a431-9ff46799e682")
 	)
 	(wire
 		(pts
@@ -4304,16 +4311,6 @@
 			(justify right bottom)
 		)
 		(uuid "02fc3bb8-f71d-48b9-8f86-292cd3257f26")
-	)
-	(label "SD_CD"
-		(at 237.49 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "052ff107-702f-4aed-9952-e0f5df04d128")
 	)
 	(label "SD_CK"
 		(at 224.79 52.07 0)
@@ -4395,6 +4392,16 @@
 		)
 		(uuid "181f4bdb-e9fc-48b6-8b5b-c56183cf1fed")
 	)
+	(label "SD_WP"
+		(at 237.49 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "199a4680-02e0-4c1c-bbd5-adf8d88360de")
+	)
 	(label "SD_CD"
 		(at 138.43 45.72 180)
 		(effects
@@ -4416,7 +4423,7 @@
 		(uuid "236166bc-9e30-4142-a075-8b78587953bf")
 	)
 	(label "SD_D0"
-		(at 237.49 95.25 0)
+		(at 237.49 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4455,6 +4462,16 @@
 		)
 		(uuid "3af125cf-544e-4592-bb48-af9cdccf88d1")
 	)
+	(label "SD_CK"
+		(at 237.49 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b539ce3-91f7-4ced-a13d-a67d2927f991")
+	)
 	(label "USB-SD.RX1-"
 		(at 53.34 45.72 0)
 		(effects
@@ -4485,16 +4502,6 @@
 		)
 		(uuid "55a0a2bf-3a14-4385-8069-73bd6e0f2ca9")
 	)
-	(label "SD_CM"
-		(at 237.49 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5720ca4b-c4de-442b-a024-c3ca6b752449")
-	)
 	(label "USB-SD.TX1-"
 		(at 53.34 38.1 0)
 		(effects
@@ -4505,15 +4512,15 @@
 		)
 		(uuid "5e07ea5e-f981-4d5a-8cfd-3fc6d5e63b5a")
 	)
-	(label "SD_WP"
-		(at 237.49 147.32 0)
+	(label "SD_D2"
+		(at 237.49 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6beddd17-733f-4e07-9064-3925e38754d2")
+		(uuid "69275d7d-c139-48cf-ac92-b7daffcedd4b")
 	)
 	(label "SD_D1"
 		(at 224.79 41.91 0)
@@ -4526,7 +4533,7 @@
 		(uuid "6cc98c64-b017-440e-9b26-a6f946f36730")
 	)
 	(label "SD_D3"
-		(at 237.49 113.03 0)
+		(at 237.49 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4555,15 +4562,25 @@
 		)
 		(uuid "7ea2c2ff-90a4-4f2f-9ba7-317259b49131")
 	)
-	(label "SD_D2"
-		(at 237.49 107.95 0)
+	(label "SD_CM"
+		(at 237.49 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9fcaeac4-eaa7-47fb-a6d1-79caea035590")
+		(uuid "8b0f5a0c-93f4-4402-9dc8-1d3fc488c736")
+	)
+	(label "SD_CD"
+		(at 237.49 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fdefdb6-dc05-4e39-a18d-ac93eaf835ea")
 	)
 	(label "SD_D3"
 		(at 138.43 63.5 180)
@@ -4576,7 +4593,7 @@
 		(uuid "a1da2169-fff3-47f4-b687-b915dff95143")
 	)
 	(label "SD_D1"
-		(at 237.49 100.33 0)
+		(at 237.49 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4644,16 +4661,6 @@
 			(justify left bottom)
 		)
 		(uuid "c139874b-6e7e-4390-ade4-aa1b98680851")
-	)
-	(label "SD_CK"
-		(at 237.49 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c416f4b7-4a2d-4a85-8fb9-64052269078b")
 	)
 	(label "SD_CK"
 		(at 138.43 68.58 180)
@@ -4918,6 +4925,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 20.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d98c465b-1a33-4ee2-8b39-652e8f5e4afb")
 		)
@@ -4952,7 +4968,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "18pF"
 			(at 50.8 113.0299 0)
 			(effects
 				(font
@@ -4980,6 +4996,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C33149"
 			(at 46.99 111.76 0)
 			(effects
 				(font
@@ -5152,6 +5177,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5182432"
 			(at 48.26 77.47 0)
 			(effects
 				(font
@@ -5491,6 +5525,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C18164591"
+			(at 78.74 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32159161-52ff-4a14-b9e5-831ffbaeb4e6")
 		)
@@ -5750,6 +5793,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5182432"
 			(at 30.48 77.47 0)
 			(effects
 				(font
@@ -6155,6 +6207,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C18164591"
+			(at 72.39 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8daf7490-870d-4c25-a973-7298b31f28cf")
 		)
@@ -6422,6 +6483,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 39.37 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abfef2e4-8b76-474f-8fdd-6a20aa4c4d31")
 		)
@@ -6456,7 +6526,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "18pF"
 			(at 26.67 113.0299 0)
 			(effects
 				(font
@@ -6484,6 +6554,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 22.86 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C33149"
 			(at 22.86 111.76 0)
 			(effects
 				(font
@@ -6836,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 35.56 106.68 0)
 			(effects
 				(font
@@ -6855,6 +6934,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C179643"
 			(at 35.56 106.68 0)
 			(effects
 				(font
@@ -6938,6 +7026,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f01065ca-f2d7-4bda-9225-9410e70648ec")
 		)
@@ -7001,6 +7098,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 254 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106794"
 			(at 254 105.41 0)
 			(effects
 				(font
@@ -7404,7 +7510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 83.82 111.76 0)
 			(effects
 				(font
@@ -7432,6 +7538,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22371298"
 			(at 83.82 111.76 0)
 			(effects
 				(font
@@ -7509,6 +7624,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5182432"
+			(at 20.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d98c465b-1a33-4ee2-8b39-652e8f5e4afc")
 		)
@@ -7572,6 +7696,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106794"
 			(at 254 139.7 0)
 			(effects
 				(font

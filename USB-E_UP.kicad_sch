@@ -2598,6 +2598,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C106794"
+			(at 172.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "34f5e2d3-b8fe-45c1-a267-9800c8947296")
 		)
@@ -3011,6 +3020,15 @@
 			)
 		)
 		(property "Description" "4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0, USON-10"
+			(at 172.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106794"
 			(at 172.72 64.77 0)
 			(effects
 				(font
