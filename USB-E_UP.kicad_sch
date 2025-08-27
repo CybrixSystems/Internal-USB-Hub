@@ -2396,6 +2396,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2906948"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2f45f0a8-e288-4c21-b6c8-a0c73e7594e1")
 		)
@@ -2950,6 +2959,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906948"
 			(at 209.55 39.37 0)
 			(effects
 				(font

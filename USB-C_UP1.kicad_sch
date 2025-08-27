@@ -7329,6 +7329,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C105871"
+			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "581e3943-47d6-48e1-99d8-7210c394c23f")
 		)
@@ -8199,6 +8208,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C105871"
+			(at 73.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddfb241f-228e-4572-82bd-74ad57943422")
 		)
@@ -8535,6 +8553,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25764 "
 			(at 34.29 54.61 0)
 			(effects
 				(font
@@ -9158,6 +9185,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25764 "
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f768939-8af4-44d2-bd6f-0280b7508ee0")
 		)
@@ -9544,6 +9580,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C105871"
+			(at 49.53 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)

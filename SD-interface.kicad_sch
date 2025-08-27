@@ -6808,6 +6808,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C25130"
+			(at 121.92 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2108874-422c-4c66-8fe2-479bceafeeec")
 		)
@@ -7901,7 +7910,7 @@
 				)
 			)
 		)
-		(property "Value" "520"
+		(property "Value" "560"
 			(at 74.93 107.95 90)
 			(effects
 				(font
@@ -7929,6 +7938,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C137858 "
+			(at 74.93 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)

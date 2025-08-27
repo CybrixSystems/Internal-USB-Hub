@@ -5429,6 +5429,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C327253 "
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c3fe244-ac6f-4725-82c7-87c20b1e7a14")
 		)
@@ -6129,6 +6138,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C5119948 "
+			(at 261.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bf992c1c-236b-46ec-9b11-07c0d7718c21")
 		)
@@ -6486,7 +6504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 47.498 24.13 90)
 			(effects
 				(font
@@ -6505,6 +6523,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 45.72 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906974"
 			(at 45.72 24.13 0)
 			(effects
 				(font
@@ -6764,7 +6791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 46.482 90)
 			(effects
 				(font
@@ -6784,6 +6811,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 100.33 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906974"
+			(at 100.33 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 47.498 90)
 			(effects
 				(font
@@ -7116,6 +7152,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906974"
+			(at 88.9 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,6 +7473,15 @@
 			)
 		)
 		(property "Description" "USB 3.0 A connector"
+			(at 261.62 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5119948 "
 			(at 261.62 92.71 0)
 			(effects
 				(font
@@ -8108,6 +8162,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C327253 "
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7389fa08-2883-43f9-a3ce-0db33fac62ba")
 		)
@@ -8283,7 +8346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.598 31.75 90)
 			(effects
 				(font
@@ -8302,6 +8365,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906974"
 			(at 83.82 31.75 0)
 			(effects
 				(font
