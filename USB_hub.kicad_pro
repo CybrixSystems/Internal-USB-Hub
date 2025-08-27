@@ -914,6 +914,12 @@
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part No ",
+          "name": "Mouser Part No ",
+          "show": false
         }
       ],
       "filter_string": "",

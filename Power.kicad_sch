@@ -4053,9 +4053,9 @@
 		)
 		(uuid "cd2c6e99-bc22-4301-9c29-9b3c3347bd3e")
 	)
-	(text "for current ripple 0.75A"
+	(text "for current ripple 0.00075A"
 		(exclude_from_sim no)
-		(at 134.112 92.456 0)
+		(at 143.51 92.456 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10510,7 +10510,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5u"
+		(property "Value" "1.5uH"
 			(at 109.22 162.56 90)
 			(effects
 				(font
@@ -12306,7 +12306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2k"
+		(property "Value" "8k"
 			(at 62.23 120.6499 0)
 			(effects
 				(font
@@ -12315,7 +12315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.912 119.38 90)
 			(effects
 				(font
@@ -12342,7 +12342,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C137929"
+		(property "LCSC Part" "C862307"
 			(at 59.69 119.38 0)
 			(effects
 				(font
@@ -16749,7 +16749,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7nH"
+		(property "Value" "4.7uH"
 			(at 118.11 92.202 90)
 			(effects
 				(font
@@ -16757,7 +16757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL1010-XXX"
 			(at 118.11 93.98 0)
 			(effects
 				(font
@@ -16777,6 +16777,24 @@
 		)
 		(property "Description" "Inductor"
 			(at 118.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "710-7843250072 "
+			(at 118.11 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19271849"
+			(at 118.11 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
