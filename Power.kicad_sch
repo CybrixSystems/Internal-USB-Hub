@@ -7776,7 +7776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 128.27 165.1 0)
 			(effects
 				(font
@@ -7842,7 +7842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 274.32 93.98 0)
 			(effects
 				(font
@@ -8381,7 +8381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 134.3152 172.72 0)
 			(effects
 				(font
@@ -8408,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C88755"
+		(property "LCSC Part" "C141660 "
 			(at 133.35 168.91 0)
 			(effects
 				(font
@@ -10538,6 +10538,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 109.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C520330"
+			(at 109.22 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13865,7 +13874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 23.8252 172.72 0)
 			(effects
 				(font
@@ -13892,7 +13901,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C88755"
+		(property "LCSC Part" "C141660 "
 			(at 22.86 168.91 0)
 			(effects
 				(font

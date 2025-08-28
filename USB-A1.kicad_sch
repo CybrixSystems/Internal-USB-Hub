@@ -4682,6 +4682,17 @@
 	)
 	(hierarchical_label "PRT_EN2"
 		(shape input)
+		(at 36.83 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2baa580b-4775-4271-828a-284352df2949")
+	)
+	(hierarchical_label "PRT_EN1"
+		(shape input)
 		(at 115.57 48.26 0)
 		(effects
 			(font
@@ -4689,7 +4700,7 @@
 			)
 			(justify left)
 		)
-		(uuid "88657e20-dcd5-47b3-8b62-4af9957145eb")
+		(uuid "51e9b60a-e36e-4583-9428-3acf73f40931")
 	)
 	(hierarchical_label "USB-A1"
 		(shape input)
@@ -4712,17 +4723,6 @@
 			(justify right)
 		)
 		(uuid "cc9196a6-6713-43cd-b1ff-08125c39dac2")
-	)
-	(hierarchical_label "PRT_EN1"
-		(shape input)
-		(at 36.83 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3ea9264-7294-40c9-9aa7-c414846204cc")
 	)
 	(rule_area
 		(polyline
@@ -5455,7 +5455,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 24.13 41.91 0)
+		(at 104.14 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5464,7 +5464,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e93f040-bf41-4568-8de2-29c02b3ae2ce")
 		(property "Reference" "#PWR0140"
-			(at 24.13 45.72 0)
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5473,7 @@
 			)
 		)
 		(property "Value" "VBUS-A1"
-			(at 24.13 36.83 0)
+			(at 104.14 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +5481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 41.91 0)
+			(at 104.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,7 +5490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 41.91 0)
+			(at 104.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 24.13 41.91 0)
+			(at 104.14 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5607,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 104.14 57.15 0)
+		(at 24.13 41.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5617,7 +5617,7 @@
 		(fields_autoplaced yes)
 		(uuid "352aaa35-1b81-4d08-92e1-e6c36f4bbe9c")
 		(property "Reference" "#PWR0143"
-			(at 104.14 60.96 0)
+			(at 24.13 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5626,7 @@
 			)
 		)
 		(property "Value" "VBUS-A2"
-			(at 104.14 52.07 0)
+			(at 24.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +5634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 57.15 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 57.15 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 104.14 57.15 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -6936,7 +6936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 80.01 82.55 0)
 			(effects
 				(font
