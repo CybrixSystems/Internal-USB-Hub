@@ -5056,7 +5056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Card:SD_Kyocera_145638009511859+"
+		(property "Footprint" "SamacSys_Parts:SD2A"
 			(at 256.54 52.832 0)
 			(effects
 				(font
@@ -5075,6 +5075,15 @@
 			)
 		)
 		(property "Description" "SD card receptacle"
+			(at 247.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "179-SD-2-A "
 			(at 247.65 49.53 0)
 			(effects
 				(font

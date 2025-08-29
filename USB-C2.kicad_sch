@@ -5720,6 +5720,16 @@
 		)
 		(uuid "64832fb3-9932-4d85-b6b6-945e0e39a599")
 	)
+	(text "CHECK FOOTPRINT\n"
+		(exclude_from_sim no)
+		(at 164.846 18.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ff84076-e62a-455a-8630-966838bbb274")
+	)
 	(text "PD Controller"
 		(exclude_from_sim no)
 		(at 185.674 16.256 0)
@@ -5789,6 +5799,16 @@
 			)
 		)
 		(uuid "c74b4947-7a0e-4f48-ba2b-be099ad37e83")
+	)
+	(text "change footprint !!!!!!!"
+		(exclude_from_sim no)
+		(at 227.584 75.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3f94a5e-32f4-4a7e-9d5f-f540a50ab8c8")
 	)
 	(junction
 		(at 382.27 88.9)
@@ -22337,7 +22357,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19271849"
+		(property "LCSC Part" "C18199458"
 			(at 170.18 22.86 90)
 			(effects
 				(font
@@ -24834,7 +24854,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22388553 "
+		(property "LCSC Part" ""
+			(at 226.06 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "710-865080645010 "
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -26547,6 +26576,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part No " "640-USB4200-03-A "
+			(at 378.46 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A6"
 			(uuid "e1c24bae-5b53-4dea-93e6-5d5cbd1b6575")
 		)
@@ -26898,6 +26936,15 @@
 			)
 		)
 		(property "LCSC Part" "C332644"
+			(at 21.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "71-CRCW04026R65FKEDH "
 			(at 21.59 62.23 0)
 			(effects
 				(font
@@ -29809,6 +29856,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C913788 "
+			(at 21.59 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b2444b02-92d5-46b7-a82c-7786eb94cf60")
 		)
@@ -30773,6 +30829,15 @@
 		)
 		(property "LCSC Part" "C5986888"
 			(at 170.18 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "595-TPS25762CQRQLRQ1"
+			(at 170.18 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

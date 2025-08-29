@@ -8352,7 +8352,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 50.038 45.72 90)
 			(effects
 				(font
@@ -8371,6 +8371,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "603-RT1206CRE07900KL "
 			(at 48.26 45.72 0)
 			(effects
 				(font
@@ -10622,6 +10631,15 @@
 			)
 		)
 		(property "Description" "USB Full-Featured Type-C Receptacle connector"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "640-USB4200-03-A "
 			(at 248.92 50.8 0)
 			(effects
 				(font

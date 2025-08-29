@@ -140,7 +140,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -795,7 +795,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "USB_hub.step",
       "svg": "",
       "vrml": ""
     },
@@ -803,7 +803,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "production\\USB_hub.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -876,7 +876,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -936,15 +936,15 @@
           "group_by": false,
           "label": "Mouser Part No ",
           "name": "Mouser Part No ",
-          "show": false
+          "show": true
         }
       ],
-      "filter_string": "",
+      "filter_string": "FB",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Mouser Part No "
     },
     "connection_grid_size": 50.0,
     "drawing": {

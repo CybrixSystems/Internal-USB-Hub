@@ -9825,6 +9825,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C913788 "
+			(at 271.78 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a455e95-772a-4987-a251-d882af067781")
 		)
@@ -11425,6 +11434,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "579-USB7206C/KDX "
 			(at 60.96 25.4 0)
 			(effects
 				(font

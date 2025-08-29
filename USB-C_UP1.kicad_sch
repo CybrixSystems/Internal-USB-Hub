@@ -9328,7 +9328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 50.038 45.72 90)
 			(effects
 				(font
@@ -9347,6 +9347,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "603-RT1206CRE07900KL "
 			(at 48.26 45.72 0)
 			(effects
 				(font

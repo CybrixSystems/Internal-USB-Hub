@@ -4053,6 +4053,26 @@
 		)
 		(uuid "cd2c6e99-bc22-4301-9c29-9b3c3347bd3e")
 	)
+	(text "check footprint!!!!!"
+		(exclude_from_sim no)
+		(at 80.01 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2f77bee-74cf-405d-945c-2a45a27eb45b")
+	)
+	(text "CHANGE to 33E\n"
+		(exclude_from_sim no)
+		(at 244.348 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df67aba9-2777-4aa9-9b97-3cbffe94d621")
+	)
 	(text "for current ripple 0.00075A"
 		(exclude_from_sim no)
 		(at 143.51 92.456 0)
@@ -8649,6 +8669,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part No " "710-7427934 "
+			(at 238.76 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "23e6c821-0fd1-4696-919c-bad11ceee2c8")
 		)
@@ -9300,7 +9329,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C3743528"
+		(property "LCSC Part" "C500795"
 			(at 246.38 93.98 0)
 			(effects
 				(font
@@ -12626,6 +12655,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C20611808 "
+			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "8516a1bd-49c7-4267-8f10-b2d9fa4d17db")
 		)
@@ -13341,6 +13379,15 @@
 			)
 		)
 		(property "LCSC Part" "C5429469"
+			(at 173.99 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "710-7427934 "
 			(at 173.99 52.07 90)
 			(effects
 				(font
@@ -14358,6 +14405,15 @@
 		)
 		(property "LCSC Part" "C621769"
 			(at 82.55 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "998-MIC23201YMLTR "
+			(at 82.55 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15889,6 +15945,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part No " "78-SIRA80DP-T1-RE3 "
+			(at 134.62 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6882e3d0-b24e-42a5-97cc-8ac08ab47e17")
 		)
@@ -15989,7 +16054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-45586-0005"
+		(property "Mouser Part Number" ""
 			(at 519.05 44.45 0)
 			(effects
 				(font
@@ -16026,6 +16091,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No " "538-45586-0005"
+			(at 24.13 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16793,7 +16867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part No " "710-7843250072 "
+		(property "Mouser Part No " ""
 			(at 118.11 93.98 90)
 			(effects
 				(font
@@ -16802,7 +16876,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19271849"
+		(property "LCSC Part" "C18199458"
 			(at 118.11 93.98 90)
 			(effects
 				(font
@@ -16953,6 +17027,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part No " "710-7427934 "
+			(at 238.76 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b98d32fa-698b-48d7-961b-46d1e1bd8dd4")
 		)
@@ -17013,6 +17096,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3188708"
 			(at 81.28 102.87 0)
 			(effects
 				(font
