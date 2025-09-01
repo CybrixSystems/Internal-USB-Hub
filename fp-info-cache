@@ -1,4 +1,4 @@
-28136633839343200
+28157707567222755
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59590,6 +59590,13 @@ X2SON-3_L1.0-W0.6-L
 0
 3
 3
+EasyEDA
+ultra_small_switch_1.6x3.0mm
+
+
+0
+4
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -65110,6 +65117,13 @@ Inductor_SMD
 L_Wurth_WE-CAIR-5910
 WE-CAIR Air coil, https://www.we-online.com/components/products/datasheet/744918254.pdf
 air coil inductor wurth we cair
+0
+2
+2
+Inductor_SMD
+L_YSPIT1010A
+
+
 0
 2
 2
@@ -81556,6 +81570,13 @@ MLPQ- 0.65
 0
 21
 17
+Package_DFN_QFN
+MPS-QFN-21_3x4mm
+
+
+0
+22
+14
 Package_DFN_QFN
 MPS_QFN-12_2x2mm_P0.4mm
 MPS  QFN, 12 Pin (https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP5087A#page24), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -99903,6 +99924,69 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SamacSys_Parts
+45586-000Y
+45586-000Y
+Connector
+0
+8
+8
+SamacSys_Parts
+7427934
+7427934-2
+Ferrite Bead
+0
+2
+2
+SamacSys_Parts
+1010040575
+1010040575#-1
+Connector
+0
+15
+15
+SamacSys_Parts
+GSB4116344HR
+GSB4116344HR-2
+Connector
+0
+13
+13
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+QFN40P1200X1200X90-101N-D
+100-VQFN PACKAGE (LAND-PATTERN)
+Integrated Circuit
+0
+101
+101
+SamacSys_Parts
+SD2A
+SD-2-A-3
+Connector
+0
+13
+13
+SamacSys_Parts
+TPS259830ONRGER
+TPS259830ONRGER-2
+Integrated Circuit
+0
+26
+26
+SamacSys_Parts
+USB420003A
+USB4200-03-A-3
+Connector
+0
+28
+28
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

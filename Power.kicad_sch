@@ -1683,20 +1683,21 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U23"
-				(at 0 6.35 0)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AP7361C-33ER"
-				(at 0 3.81 0)
+			(property "Value" "AP7361C-33E"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
@@ -1769,7 +1770,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1787,7 +1788,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1805,7 +1806,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4052,26 +4053,6 @@
 			)
 		)
 		(uuid "cd2c6e99-bc22-4301-9c29-9b3c3347bd3e")
-	)
-	(text "check footprint!!!!!"
-		(exclude_from_sim no)
-		(at 80.01 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d2f77bee-74cf-405d-945c-2a45a27eb45b")
-	)
-	(text "CHANGE to 33E\n"
-		(exclude_from_sim no)
-		(at 244.348 83.312 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "df67aba9-2777-4aa9-9b97-3cbffe94d621")
 	)
 	(text "for current ripple 0.00075A"
 		(exclude_from_sim no)
@@ -9293,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Value" "AP7361C-33ER"
+		(property "Value" "AP7361C-33E"
 			(at 246.38 90.17 0)
 			(effects
 				(font
