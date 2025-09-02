@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1778
         }
       },
       "diff_pair_dimensions": [
@@ -193,6 +193,8 @@
         0.2032,
         0.25,
         0.3556,
+        0.5,
+        0.8,
         1.524
       ],
       "tuning_pattern_settings": {
@@ -206,11 +208,11 @@
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 0,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.212344,
+          "corner_style": 1,
+          "max_amplitude": 0.4064,
+          "min_amplitude": 0.2286,
           "single_sided": false,
-          "spacing": 0.466344
+          "spacing": 0.2286
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
@@ -502,7 +504,7 @@
         "track_width": 0.156972
       },
       {
-        "clearance": 0.77724,
+        "clearance": 0.155448,
         "diff_pair_gap": 0.207264,
         "diff_pair_width": 0.155448,
         "name": "USB_SS",
@@ -534,6 +536,12 @@
       ],
       "/SD-interface/SD_D3": [
         "SD"
+      ],
+      "/SD-interface/TX1+": [
+        "USB_SS"
+      ],
+      "/SD-interface/TX1-": [
+        "USB_SS"
       ],
       "/SD-interface/USB-SD.RX1+": [
         "USB_SS"
@@ -646,6 +654,18 @@
       "/USB-C2/MODE": [
         "USB_SS"
       ],
+      "/USB-C2/RX1+": [
+        "USB_SS"
+      ],
+      "/USB-C2/RX1-": [
+        "USB_SS"
+      ],
+      "/USB-C2/TX1+": [
+        "USB_SS"
+      ],
+      "/USB-C2/TX1-": [
+        "USB_SS"
+      ],
       "/USB-C2/USB-C2.RX1+": [
         "USB_SS"
       ],
@@ -718,6 +738,18 @@
       "/USB-C_UP1/USB3_IN.TX1-": [
         "USB_SS"
       ],
+      "/USB7206C/DN2TX+": [
+        "USB_SS"
+      ],
+      "/USB7206C/DN2TX-": [
+        "USB_SS"
+      ],
+      "/USB7206C/DN3TX+": [
+        "USB_SS"
+      ],
+      "/USB7206C/DN3TX-": [
+        "USB_SS"
+      ],
       "Net-(C57-Pad2)": [
         "USB_SS"
       ],
@@ -782,6 +814,9 @@
         "USB_SS"
       ],
       "Net-(U3-TX2P)": [
+        "USB_SS"
+      ],
+      "unconnected-(C123-Pad2)": [
         "USB_SS"
       ]
     },
@@ -876,7 +911,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -939,12 +974,12 @@
           "show": true
         }
       ],
-      "filter_string": "FB",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Mouser Part No "
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {

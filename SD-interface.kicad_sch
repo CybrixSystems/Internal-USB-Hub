@@ -3404,7 +3404,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 30.48) (xy 90.17 43.18)
+			(xy 87.63 30.48) (xy 87.63 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3514,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 93.98 43.18)
+			(xy 87.63 43.18) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4432,6 +4432,16 @@
 		)
 		(uuid "29a96016-7f05-4a1e-a85e-a59720a46d85")
 	)
+	(label "RX1-"
+		(at 78.74 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30392079-e9a2-4058-9e04-3f057c727606")
+	)
 	(label "XOUT"
 		(at 87.63 53.34 0)
 		(effects
@@ -4481,6 +4491,16 @@
 			(justify left bottom)
 		)
 		(uuid "42828037-a663-47af-ac51-682e737158f5")
+	)
+	(label "TX1-"
+		(at 93.98 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49fd04be-9dd4-4000-94c8-fa3383c5d668")
 	)
 	(label "SD_CD"
 		(at 267.97 39.37 0)
@@ -4541,6 +4561,16 @@
 			(justify left bottom)
 		)
 		(uuid "766772ff-3a90-4bf8-9d87-0ad32ffefa20")
+	)
+	(label "RX1+"
+		(at 78.74 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d3c3262-699b-4f1d-a448-ba8fb60b5779")
 	)
 	(label "RTERM"
 		(at 87.63 58.42 0)
@@ -4701,6 +4731,16 @@
 			(justify left bottom)
 		)
 		(uuid "dc39b2cc-06cf-4285-ab02-5d310809467e")
+	)
+	(label "TX1+"
+		(at 93.98 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6a97824-d623-4334-a088-d14e2ec7a60f")
 	)
 	(hierarchical_label "USB3"
 		(shape input)
@@ -4898,7 +4938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 21.2852 60.96 0)
 			(effects
 				(font
@@ -4925,7 +4965,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5182432"
+		(property "LCSC Part" "C181043 "
 			(at 20.32 57.15 0)
 			(effects
 				(font
@@ -5167,7 +5207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.2252 81.28 0)
 			(effects
 				(font
@@ -5194,7 +5234,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5182432"
+		(property "LCSC Part" "C181043 "
 			(at 48.26 77.47 0)
 			(effects
 				(font
@@ -5507,7 +5547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 78.74 40.64 0)
 			(effects
 				(font
@@ -5534,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C18164591"
+		(property "LCSC Part" "C2980695 "
 			(at 78.74 40.64 90)
 			(effects
 				(font
@@ -5783,7 +5823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 31.4452 81.28 0)
 			(effects
 				(font
@@ -5810,7 +5850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5182432"
+		(property "LCSC Part" "C181043 "
 			(at 30.48 77.47 0)
 			(effects
 				(font
@@ -5895,72 +5935,6 @@
 			(project "USB_hub"
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9b23769b-d955-4774-b8ac-278fd96aa141"
 					(reference "#PWR0130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 82.55 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c2988d7-0fb0-408b-b1b9-a94b0d509431")
-		(property "Reference" "#PWR0123"
-			(at 82.55 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 82.55 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40e2186e-9ac3-48e5-bb25-c258d0f0e6cb")
-		)
-		(instances
-			(project ""
-				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9b23769b-d955-4774-b8ac-278fd96aa141"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -6189,7 +6163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -6216,7 +6190,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C18164591"
+		(property "LCSC Part" "C2980695 "
 			(at 72.39 38.1 90)
 			(effects
 				(font
@@ -6465,7 +6439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 40.3352 81.28 0)
 			(effects
 				(font
@@ -6492,7 +6466,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5182432"
+		(property "LCSC Part" "C181043 "
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -6603,7 +6577,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "902bd568-ea58-4dbf-9bb8-e9ebde499688")
 		(property "Reference" "U15"
 			(at 113.03 27.94 0)
@@ -7017,7 +6990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 30.1752 60.96 0)
 			(effects
 				(font
@@ -7044,7 +7017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5182432"
+		(property "LCSC Part" "C181043 "
 			(at 29.21 57.15 0)
 			(effects
 				(font
@@ -7615,7 +7588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 21.2852 81.28 0)
 			(effects
 				(font
@@ -7642,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5182432"
+		(property "LCSC Part" "C181043 "
 			(at 20.32 77.47 0)
 			(effects
 				(font
@@ -7838,7 +7811,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V2")
-		(at 90.17 30.48 0)
+		(at 87.63 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7847,7 +7820,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6f3e468-9731-4ddf-a870-43957b9180bc")
 		(property "Reference" "#PWR0115"
-			(at 90.17 34.29 0)
+			(at 87.63 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +7829,7 @@
 			)
 		)
 		(property "Value" "+1V2_SD"
-			(at 90.17 25.4 0)
+			(at 87.63 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7864,7 +7837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 30.48 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7873,7 +7846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 30.48 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,7 +7855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V2\""
-			(at 90.17 30.48 0)
+			(at 87.63 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,6 +7870,72 @@
 			(project ""
 				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9b23769b-d955-4774-b8ac-278fd96aa141"
 					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 82.55 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f151b5ef-0035-49b0-8059-fb4764c3c068")
+		(property "Reference" "#PWR0123"
+			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_USB_C_SD"
+			(at 82.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 82.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34221b5d-9346-42a3-bb50-e96cc7f87713")
+		)
+		(instances
+			(project "USB_hub"
+				(path "/a2586c28-95f1-49e6-9254-37d7a8473e53/9b23769b-d955-4774-b8ac-278fd96aa141"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
